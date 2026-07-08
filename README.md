@@ -3,9 +3,9 @@
 Student ID: 32116055  
 Student email: 32116055@student.uwl.ac.uk
 
-This repository contains the final code, dataset, outputs and report for the Databases and Analytics resit assignment based on the MedLine Community Healthcare and Appointment Services case study.
+This repository contains the code, dataset, outputs and final report for the Databases and Analytics resit assignment based on the MedLine Community Healthcare and Appointment Services case study.
 
-The project analyses appointment outcomes, waiting times, referral delays, prescription delays, nurse visit issues, patient feedback and digital service cases. The work is split across three Google Colab notebooks so that the SQL, R analytics, Python processing, MongoDB development and query optimisation sections are easy to review and rerun.
+The project analyses appointment outcomes, waiting times, clinic performance, referral delays, prescription delays, nurse visit issues, patient feedback and digital service cases. The final work is organised into three Google Colab notebooks covering SQL in R, R analytics, Python data processing, MongoDB Atlas and query optimisation.
 
 ## Repository Structure
 
@@ -29,111 +29,183 @@ medline-dba-resit/
 
 ## Notebooks
 
-### 1. R SQL and R Analytics
-
-`notebooks/01_R_SQL_and_R_Analytics.ipynb`
-
-This notebook loads the MedLine CSV files into an in-memory SQLite database from R. It demonstrates SQL `SELECT`, filtering, joins, grouping, aggregate functions, CRUD examples and query-plan checking. It also includes R analytics and charts for appointment outcomes, patient ratings, waiting days and nurse visit issues.
-
-### 2. Python Data Processing and EDA
-
-`notebooks/02_Python_Data_Processing.ipynb`
-
-This notebook is the main data processing and exploratory analysis workflow. It loads all structured CSV files, checks data quality, converts dates, validates keys, creates calculated fields and produces tables and charts for appointments, waiting times, clinics, services, referrals, prescriptions, feedback, staff capacity, patient risk and digital interactions.
-
-### 3. MongoDB Atlas and Optimisation
-
-`notebooks/03_MongoDB_Atlas_and_Optimisation.ipynb`
-
-This notebook uses MongoDB Atlas for the semi-structured patient service case data. It imports nested JSONL service case documents into the `medline_resit` database and `patient_service_cases` collection. It demonstrates CRUD operations, aggregation pipelines, indexes, repeated timing tests and explain-plan evidence.
+| Notebook | Purpose |
+|---|---|
+| `01_R_SQL_and_R_Analytics.ipynb` | Loads CSV files into SQLite from R, runs SQL queries, demonstrates CRUD, checks query plans and produces R analytics charts. |
+| `02_Python_Data_Processing.ipynb` | Main Python workflow for loading, cleaning, validating, merging, feature creation, EDA tables and charts. |
+| `03_MongoDB_Atlas_and_Optimisation.ipynb` | Imports nested JSONL service cases into MongoDB Atlas, runs CRUD, aggregation pipelines, indexes, timing tests and explain-plan checks. |
 
 ## Dataset
 
-The dataset is stored in:
+The dataset is stored in `medline_resit_dataset/` and includes patients, clinics, staff, appointments, referrals, prescriptions, nurse visits, patient feedback, digital interactions and nested patient service cases.
 
-```text
-medline_resit_dataset/
+| Dataset | Rows | Columns |
+|---|---:|---:|
+| patients | 250 | 7 |
+| clinics | 6 | 6 |
+| staff | 60 | 5 |
+| appointments | 700 | 10 |
+| referrals | 250 | 8 |
+| prescriptions | 400 | 9 |
+| nurse_visits | 300 | 9 |
+| patient_feedback | 350 | 8 |
+| digital_interactions | 719 | 10 |
+
+## Example Code Snippets
+
+Python was used to create a single appointment problem flag by combining cancellations and no-shows:
+
+```python
+appointments["bad_outcome"] = appointments["status"].isin([
+    "Cancelled by patient",
+    "Cancelled by clinic",
+    "No-show"
+])
 ```
 
-It contains structured CSV files and a nested JSONL file covering:
+SQL in R was used to calculate clinic-level appointment performance:
 
-- patients
-- clinics
-- staff
-- appointments
-- referrals
-- prescriptions
-- nurse visits
-- patient feedback
-- digital interactions
-- patient service cases
+```sql
+SELECT
+    c.clinic_name,
+    COUNT(*) AS total_appointments,
+    SUM(CASE WHEN a.status IN
+        ('Cancelled by patient', 'Cancelled by clinic', 'No-show')
+        THEN 1 ELSE 0 END) AS bad_outcomes
+FROM appointments a
+JOIN clinics c ON a.clinic_id = c.clinic_id
+GROUP BY c.clinic_name;
+```
 
-The notebooks use relative file paths, so the dataset folder should remain in the repository root.
+MongoDB was used for nested patient service cases:
 
-## Main Outputs and Charts
+```python
+collection.update_one(
+    {"case_id": "C_TEST_DEMO"},
+    {"$set": {"case_status": "Escalated"}}
+)
+```
 
-Generated outputs are stored in:
+## Key Output Tables
 
-- `outputs/figures/` - charts used for analysis and report evidence
-- `outputs/tables/` - CSV summaries produced from R, Python and MongoDB workflows
-- `outputs/mongodb/` - aggregation pipelines, results, query workloads and explain-plan files
-- `reports/` - final Word report for submission
+### Appointment Status
 
-The main chart outputs include:
+| Status | Appointments | Percentage |
+|---|---:|---:|
+| Completed | 427 | 61.00% |
+| Cancelled by patient | 86 | 12.29% |
+| Cancelled by clinic | 83 | 11.86% |
+| Rescheduled | 53 | 7.57% |
+| No-show | 51 | 7.29% |
 
-- appointment status distribution
-- bad appointment outcome rate by clinic
-- bad appointment outcome rate by service
-- waiting days distribution
-- waiting days against patient rating
-- patient rating by appointment status
-- referral delay by service
-- prescription delay by clinic
-- nurse visit problem rate by clinic
-- clinic capacity by clinic
-- digital event type counts
-- combined clinic risk heatmap
-- R analytics charts for clinic outcomes, ratings, waiting days and nurse visit issues
+### Clinic Appointment Performance
 
-The table outputs include dataset inventory, data quality checks, appointment summaries, clinic and service performance, feedback analysis, referral delay, prescription delay, nurse visit analysis, patient segment risk, MongoDB timing results and MongoDB explain-plan notes.
+| Clinic | Appointments | Bad outcomes | Bad outcome rate |
+|---|---:|---:|---:|
+| Canal Walk Clinic | 127 | 52 | 40.94% |
+| Riverside Clinic | 127 | 46 | 36.22% |
+| Northgate Diagnostics | 130 | 41 | 31.54% |
+| Green Park Health Centre | 96 | 27 | 28.13% |
+| Westbridge Community Clinic | 117 | 32 | 27.35% |
+| Hillview Medical Hub | 103 | 22 | 21.36% |
 
-These files are included so the analysis, figures and supporting evidence can be reviewed without rerunning every notebook.
+### Service Appointment Performance
+
+| Service type | Appointments | Bad outcomes | Bad outcome rate |
+|---|---:|---:|---:|
+| Prescription Review | 126 | 43 | 34.13% |
+| Diagnostic Scan | 123 | 40 | 32.52% |
+| Nurse Appointment | 117 | 37 | 31.62% |
+| Blood Test | 111 | 34 | 30.63% |
+| Community Follow-up | 119 | 36 | 30.25% |
+| GP Consultation | 104 | 30 | 28.85% |
+
+### Referral Delay by Service
+
+| Target service | Referrals | Delayed or open | Delayed/open rate |
+|---|---:|---:|---:|
+| Cardiology | 45 | 23 | 51.11% |
+| Community Nursing | 53 | 25 | 47.17% |
+| Physiotherapy | 38 | 17 | 44.74% |
+| Dermatology | 42 | 16 | 38.10% |
+| Diagnostics | 35 | 11 | 31.43% |
+| Mental Health | 37 | 11 | 29.73% |
+
+## Main Charts
+
+### Appointment and Clinic Analysis
+
+![Appointment status distribution](outputs/figures/appointment_status_distribution.png)
+
+![Bad appointment outcome by clinic](outputs/figures/bad_outcome_by_clinic.png)
+
+![Bad appointment outcome by service](outputs/figures/bad_outcome_by_service.png)
+
+### Waiting Time and Feedback Analysis
+
+![Waiting days distribution](outputs/figures/waiting_days_distribution.png)
+
+![Waiting days against rating](outputs/figures/waiting_days_vs_rating.png)
+
+![Patient rating by appointment status](outputs/figures/rating_by_status.png)
+
+The waiting-days and rating correlation was approximately `-0.291`, showing that longer waits were generally linked with lower patient ratings.
+
+### Referral, Prescription and Nurse Visit Analysis
+
+![Referral delay by service](outputs/figures/referral_delay_by_service.png)
+
+![Prescription delay by clinic](outputs/figures/prescription_delay_by_clinic.png)
+
+![Nurse visit problem by clinic](outputs/figures/nurse_visit_problem_by_clinic.png)
+
+### Combined Risk and Digital Interaction Analysis
+
+![Digital event type counts](outputs/figures/digital_event_type_counts.png)
+
+![Combined clinic risk heatmap](outputs/figures/clinic_risk_heatmap.png)
+
+## MongoDB Output
+
+The MongoDB notebook creates the `medline_resit` database and the `patient_service_cases` collection. The JSONL file contains 180 nested service case documents and 719 nested events.
+
+| MongoDB evidence | Result |
+|---|---|
+| Database | `medline_resit` |
+| Collection | `patient_service_cases` |
+| Documents inserted | 180 |
+| Main model | Nested patient service case documents |
+| Optimisation evidence | Indexes, repeated timing tests and explain-plan notes |
+
+The explain-plan output confirms index use for the main workloads:
+
+| Workload | Uses IXSCAN | Uses COLLSCAN |
+|---|---|---|
+| open_high_priority_cases | True | False |
+| patient_case_history | True | False |
+| escalation_event_cases | True | False |
+
+## Outputs Included
+
+| Folder | Contents |
+|---|---|
+| `outputs/figures/` | PNG charts used in the analysis and report |
+| `outputs/tables/` | CSV summary tables from R, Python and MongoDB workflows |
+| `outputs/mongodb/` | Aggregation pipelines, aggregation results, query workloads and explain-plan JSON files |
+| `reports/` | Final Word report for submission |
 
 ## How To Run
 
-Run the notebooks in this order:
+1. Open `notebooks/01_R_SQL_and_R_Analytics.ipynb` in Google Colab using an R runtime.
+2. Open `notebooks/02_Python_Data_Processing.ipynb` in Google Colab using a Python runtime.
+3. Open `notebooks/03_MongoDB_Atlas_and_Optimisation.ipynb` in Google Colab using a Python runtime.
 
-1. Open `01_R_SQL_and_R_Analytics.ipynb` in Google Colab with an R runtime.
-2. Open `02_Python_Data_Processing.ipynb` in Google Colab with a Python runtime.
-3. Open `03_MongoDB_Atlas_and_Optimisation.ipynb` in Google Colab with a Python runtime.
+The notebooks use relative paths, so keep `medline_resit_dataset/`, `notebooks/`, `outputs/` and `reports/` in the same repository structure.
 
-The notebooks include setup cells for required packages. For local Python use, install the packages in `requirements.txt`:
+For local Python use:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## MongoDB Reproducibility
-
-To rerun the MongoDB notebook, add the MongoDB Atlas connection string in Colab as a secret or environment variable named:
-
-```text
-MONGODB_URI
-```
-
-The Atlas Network Access list must allow the IP address of the machine running the notebook. The notebook creates the required database, collection, documents and indexes from the project dataset.
-
-## Suggested Git Commands
-
-Run these commands inside the repository root folder:
-
-```bash
-git init
-git add .
-git commit -m "Add MedLine DBA resit submission"
-git branch -M main
-git remote add origin <your-github-repository-url>
-git push -u origin main
-```
-
-Replace `<your-github-repository-url>` with the URL of the GitHub repository.
+For the MongoDB notebook, add the Atlas connection string in Colab as `MONGODB_URI` before running the MongoDB cells.
