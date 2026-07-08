@@ -1,0 +1,7 @@
+clinic_id,clinic_name,prescriptions,delayed_count,not_collected,avg_processing_days,delayed_rate
+CL002,Green Park Health Centre,46,13,13,2.369565217391304,28.26086956521739
+CL005,Hillview Medical Hub,78,18,21,2.3461538461538463,23.076923076923077
+CL003,Northgate Diagnostics,80,17,22,2.15,21.25
+CL001,Riverside Clinic,66,14,22,2.272727272727273,21.21212121212121
+CL004,Westbridge Community Clinic,64,12,23,2.5,18.75
+CL006,Canal Walk Clinic,66,12,20,2.242424242424242,18.181818181818183

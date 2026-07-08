@@ -1,0 +1,181 @@
+case_id,patient_id,case_type,case_status,priority,opened_date,event_count,satisfaction_after_case
+C00001,P0125,Referral query,Closed,Low,2026-01-02,6,2
+C00002,P0187,Online consultation,Closed,High,2026-06-08,5,1
+C00003,P0179,Prescription support,Escalated,Medium,2026-06-04,2,4
+C00004,P0107,Community visit query,Open,Medium,2026-05-30,5,3
+C00005,P0246,Prescription support,Closed,High,2026-06-27,2,1
+C00006,P0246,Referral query,Closed,Medium,2026-06-14,4,4
+C00007,P0099,Community visit query,Closed,Low,2026-05-08,5,2
+C00008,P0049,Appointment issue,Closed,Low,2026-02-21,2,4
+C00009,P0041,Referral query,Open,Low,2026-03-30,5,4
+C00010,P0098,Prescription support,Escalated,Medium,2026-01-27,6,3
+C00011,P0169,Online consultation,Closed,Medium,2026-05-22,3,4
+C00012,P0057,Appointment issue,Open,Medium,2026-03-16,6,3
+C00013,P0036,Appointment issue,Open,Medium,2026-02-03,2,5
+C00014,P0208,Community visit query,Escalated,High,2026-03-31,6,1
+C00015,P0200,Prescription support,Escalated,Medium,2026-05-28,2,4
+C00016,P0022,Prescription support,Open,Medium,2026-01-24,3,1
+C00017,P0030,Community visit query,Closed,Low,2026-04-14,3,3
+C00018,P0147,Referral query,Closed,Low,2026-04-08,6,5
+C00019,P0050,Referral query,Open,High,2026-04-08,3,5
+C00020,P0084,Prescription support,Closed,Low,2026-02-03,4,1
+C00021,P0111,Referral query,Open,Low,2026-04-16,3,1
+C00022,P0158,Appointment issue,Closed,Medium,2026-05-25,5,5
+C00023,P0032,Appointment issue,Closed,Medium,2026-01-07,2,3
+C00024,P0115,Referral query,Closed,Medium,2026-06-01,4,3
+C00025,P0126,Online consultation,Closed,Medium,2026-02-14,2,2
+C00026,P0031,Prescription support,Closed,Medium,2026-06-21,3,1
+C00027,P0015,Community visit query,Closed,Medium,2026-04-19,4,5
+C00028,P0194,Appointment issue,Open,Medium,2026-03-22,4,1
+C00029,P0209,Appointment issue,Escalated,Low,2026-05-23,5,1
+C00030,P0018,Appointment issue,Closed,Medium,2026-06-19,3,3
+C00031,P0025,Referral query,Closed,Low,2026-06-25,3,1
+C00032,P0116,Appointment issue,Closed,Medium,2026-05-27,5,2
+C00033,P0131,Online consultation,Escalated,Medium,2026-06-03,5,2
+C00034,P0125,Online consultation,Closed,Low,2026-04-07,5,4
+C00035,P0003,Online consultation,Closed,Medium,2026-01-27,3,5
+C00036,P0011,Online consultation,Closed,High,2026-04-12,6,3
+C00037,P0048,Community visit query,Closed,Medium,2026-03-07,5,4
+C00038,P0194,Referral query,Closed,Medium,2026-05-13,6,5
+C00039,P0159,Community visit query,Closed,Low,2026-05-29,4,4
+C00040,P0093,Community visit query,Closed,Low,2026-04-08,2,3
+C00041,P0064,Referral query,Escalated,High,2026-05-12,4,3
+C00042,P0202,Prescription support,Open,Medium,2026-05-23,5,5
+C00043,P0008,Prescription support,Open,Low,2026-04-05,5,4
+C00044,P0110,Community visit query,Open,Medium,2026-05-03,5,5
+C00045,P0102,Online consultation,Closed,Low,2026-02-20,6,5
+C00046,P0187,Referral query,Open,Medium,2026-05-22,4,2
+C00047,P0223,Referral query,Closed,Medium,2026-01-29,3,2
+C00048,P0126,Referral query,Closed,Low,2026-02-19,3,4
+C00049,P0156,Referral query,Closed,Low,2026-05-20,4,4
+C00050,P0089,Referral query,Open,Medium,2026-03-07,4,2
+C00051,P0138,Appointment issue,Closed,High,2026-06-19,6,5
+C00052,P0192,Community visit query,Closed,Low,2026-02-14,3,2
+C00053,P0242,Community visit query,Closed,Medium,2026-02-14,6,4
+C00054,P0184,Community visit query,Closed,Low,2026-05-21,3,4
+C00055,P0071,Prescription support,Open,Medium,2026-04-18,3,3
+C00056,P0242,Appointment issue,Open,Medium,2026-04-23,2,3
+C00057,P0077,Appointment issue,Closed,Low,2026-01-24,2,5
+C00058,P0195,Community visit query,Escalated,Medium,2026-04-18,4,4
+C00059,P0136,Appointment issue,Open,High,2026-06-24,4,3
+C00060,P0117,Community visit query,Closed,Medium,2026-01-04,6,5
+C00061,P0038,Referral query,Closed,Low,2026-06-05,3,2
+C00062,P0027,Referral query,Closed,High,2026-04-06,4,4
+C00063,P0044,Appointment issue,Open,Low,2026-03-13,6,5
+C00064,P0165,Appointment issue,Closed,Low,2026-01-30,2,3
+C00065,P0059,Appointment issue,Escalated,Low,2026-05-26,2,1
+C00066,P0225,Appointment issue,Closed,Medium,2026-06-28,3,5
+C00067,P0204,Prescription support,Open,High,2026-02-21,3,2
+C00068,P0249,Community visit query,Open,Medium,2026-05-15,3,3
+C00069,P0229,Online consultation,Closed,Medium,2026-05-21,4,3
+C00070,P0021,Referral query,Closed,Medium,2026-02-10,2,5
+C00071,P0027,Appointment issue,Escalated,Medium,2026-01-22,6,2
+C00072,P0113,Community visit query,Open,Medium,2026-04-02,3,5
+C00073,P0087,Community visit query,Closed,Medium,2026-03-14,2,2
+C00074,P0171,Referral query,Escalated,Medium,2026-01-03,6,2
+C00075,P0246,Online consultation,Closed,High,2026-03-04,3,5
+C00076,P0016,Online consultation,Closed,Low,2026-04-10,4,2
+C00077,P0086,Prescription support,Open,Medium,2026-02-25,2,3
+C00078,P0048,Prescription support,Open,High,2026-02-26,4,1
+C00079,P0023,Online consultation,Open,High,2026-02-26,4,2
+C00080,P0108,Prescription support,Closed,Medium,2026-02-06,4,2
+C00081,P0049,Community visit query,Open,Low,2026-06-15,2,1
+C00082,P0129,Online consultation,Escalated,Medium,2026-03-27,6,3
+C00083,P0085,Referral query,Closed,Medium,2026-05-12,5,5
+C00084,P0192,Prescription support,Open,Low,2026-04-18,2,4
+C00085,P0128,Prescription support,Open,High,2026-03-04,2,1
+C00086,P0089,Community visit query,Open,High,2026-04-27,5,1
+C00087,P0068,Online consultation,Escalated,Low,2026-01-18,5,5
+C00088,P0206,Prescription support,Closed,Medium,2026-04-03,6,1
+C00089,P0076,Online consultation,Open,Low,2026-02-25,4,3
+C00090,P0233,Prescription support,Escalated,Low,2026-02-26,3,2
+C00091,P0020,Prescription support,Closed,Medium,2026-04-04,5,3
+C00092,P0101,Referral query,Open,Medium,2026-04-09,2,1
+C00093,P0147,Referral query,Closed,Medium,2026-03-29,6,2
+C00094,P0203,Referral query,Escalated,Low,2026-01-30,4,1
+C00095,P0021,Online consultation,Open,High,2026-01-24,4,1
+C00096,P0178,Referral query,Closed,Medium,2026-03-29,5,5
+C00097,P0017,Prescription support,Closed,Medium,2026-03-25,2,2
+C00098,P0031,Prescription support,Closed,Low,2026-02-28,3,1
+C00099,P0154,Community visit query,Open,Low,2026-05-28,4,4
+C00100,P0177,Appointment issue,Open,Medium,2026-02-27,5,2
+C00101,P0102,Community visit query,Open,Low,2026-06-15,6,5
+C00102,P0075,Online consultation,Open,High,2026-03-30,3,4
+C00103,P0222,Appointment issue,Open,Low,2026-06-15,4,4
+C00104,P0170,Referral query,Closed,Low,2026-03-15,6,5
+C00105,P0239,Prescription support,Closed,Medium,2026-06-01,6,4
+C00106,P0232,Community visit query,Escalated,Medium,2026-05-17,5,4
+C00107,P0167,Referral query,Closed,Low,2026-04-01,6,3
+C00108,P0145,Referral query,Escalated,Low,2026-01-02,3,2
+C00109,P0099,Community visit query,Closed,High,2026-03-07,2,5
+C00110,P0110,Appointment issue,Open,Low,2026-06-07,5,4
+C00111,P0173,Referral query,Closed,High,2026-03-18,4,3
+C00112,P0191,Referral query,Open,Medium,2026-02-26,2,2
+C00113,P0148,Community visit query,Closed,High,2026-01-05,3,5
+C00114,P0220,Prescription support,Open,Low,2026-02-10,6,5
+C00115,P0111,Appointment issue,Escalated,Medium,2026-02-07,6,1
+C00116,P0067,Prescription support,Open,Low,2026-02-18,5,1
+C00117,P0005,Appointment issue,Open,Medium,2026-05-29,6,3
+C00118,P0243,Prescription support,Open,Low,2026-02-11,5,1
+C00119,P0057,Online consultation,Closed,Low,2026-04-15,2,3
+C00120,P0064,Prescription support,Open,Low,2026-03-13,2,2
+C00121,P0012,Appointment issue,Closed,High,2026-04-28,2,4
+C00122,P0235,Referral query,Closed,High,2026-05-02,4,2
+C00123,P0040,Community visit query,Closed,Medium,2026-05-30,5,2
+C00124,P0179,Online consultation,Open,Low,2026-06-07,5,4
+C00125,P0243,Referral query,Closed,Medium,2026-02-26,3,2
+C00126,P0233,Online consultation,Open,Low,2026-06-27,3,3
+C00127,P0158,Referral query,Closed,Low,2026-06-06,5,3
+C00128,P0146,Online consultation,Open,Low,2026-04-18,4,3
+C00129,P0081,Community visit query,Closed,Low,2026-03-04,5,3
+C00130,P0147,Online consultation,Closed,High,2026-01-17,3,3
+C00131,P0229,Community visit query,Closed,Medium,2026-05-30,4,5
+C00132,P0084,Appointment issue,Open,Medium,2026-04-13,6,5
+C00133,P0235,Community visit query,Open,Low,2026-05-01,3,4
+C00134,P0109,Online consultation,Open,Low,2026-06-30,2,3
+C00135,P0162,Online consultation,Closed,High,2026-02-15,6,2
+C00136,P0055,Community visit query,Closed,Medium,2026-05-10,6,2
+C00137,P0090,Prescription support,Closed,Medium,2026-06-03,4,4
+C00138,P0156,Prescription support,Closed,Low,2026-04-28,4,4
+C00139,P0137,Appointment issue,Closed,Medium,2026-04-01,3,2
+C00140,P0149,Community visit query,Open,Medium,2026-04-24,3,4
+C00141,P0079,Community visit query,Closed,Low,2026-03-07,6,3
+C00142,P0003,Referral query,Closed,High,2026-01-03,2,1
+C00143,P0216,Community visit query,Closed,High,2026-05-20,6,2
+C00144,P0004,Community visit query,Closed,Low,2026-04-05,2,3
+C00145,P0100,Online consultation,Closed,Medium,2026-03-16,6,1
+C00146,P0060,Referral query,Escalated,Medium,2026-03-19,6,2
+C00147,P0241,Referral query,Closed,Low,2026-06-05,3,4
+C00148,P0084,Prescription support,Closed,Medium,2026-03-01,4,1
+C00149,P0239,Referral query,Open,High,2026-05-01,5,1
+C00150,P0104,Referral query,Closed,Low,2026-05-06,5,5
+C00151,P0188,Appointment issue,Open,Low,2026-01-29,4,2
+C00152,P0108,Online consultation,Closed,Low,2026-06-26,6,2
+C00153,P0238,Online consultation,Closed,Medium,2026-05-04,2,4
+C00154,P0191,Community visit query,Closed,Low,2026-04-07,6,1
+C00155,P0137,Online consultation,Closed,Medium,2026-02-11,6,3
+C00156,P0194,Online consultation,Escalated,Medium,2026-06-01,3,3
+C00157,P0193,Community visit query,Closed,Low,2026-03-26,3,5
+C00158,P0030,Prescription support,Open,Medium,2026-06-06,4,1
+C00159,P0161,Community visit query,Open,Medium,2026-01-04,3,4
+C00160,P0079,Referral query,Escalated,Medium,2026-03-31,5,5
+C00161,P0128,Prescription support,Closed,Medium,2026-04-13,2,1
+C00162,P0181,Online consultation,Closed,Low,2026-05-20,2,4
+C00163,P0146,Online consultation,Open,High,2026-03-30,5,3
+C00164,P0046,Referral query,Closed,Medium,2026-03-07,2,3
+C00165,P0105,Prescription support,Escalated,Medium,2026-02-01,6,5
+C00166,P0205,Online consultation,Closed,High,2026-05-07,6,1
+C00167,P0202,Prescription support,Closed,Low,2026-01-28,2,3
+C00168,P0247,Referral query,Open,Low,2026-02-24,5,1
+C00169,P0237,Online consultation,Closed,Low,2026-02-13,6,2
+C00170,P0037,Prescription support,Open,Low,2026-05-31,3,2
+C00171,P0045,Prescription support,Open,Low,2026-05-17,2,5
+C00172,P0103,Referral query,Open,High,2026-01-15,2,5
+C00173,P0008,Appointment issue,Closed,Low,2026-04-30,2,4
+C00174,P0023,Online consultation,Open,Low,2026-06-17,3,3
+C00175,P0081,Prescription support,Open,Medium,2026-01-29,6,1
+C00176,P0037,Prescription support,Closed,Low,2026-03-20,3,4
+C00177,P0155,Community visit query,Escalated,High,2026-06-23,4,3
+C00178,P0188,Online consultation,Open,Medium,2026-03-07,6,2
+C00179,P0022,Online consultation,Open,Medium,2026-01-13,5,1
+C00180,P0044,Appointment issue,Closed,Low,2026-02-21,2,3

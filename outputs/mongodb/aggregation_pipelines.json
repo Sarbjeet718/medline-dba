@@ -1,0 +1,91 @@
+{
+  "cases_by_status_priority": [
+    {
+      "$group": {
+        "_id": {
+          "status": "$case_status",
+          "priority": "$priority"
+        },
+        "cases": {
+          "$sum": 1
+        },
+        "avg_satisfaction": {
+          "$avg": "$satisfaction_after_case"
+        }
+      }
+    },
+    {
+      "$sort": {
+        "cases": -1
+      }
+    }
+  ],
+  "high_priority_open_cases": [
+    {
+      "$match": {
+        "priority": "High",
+        "case_status": {
+          "$in": [
+            "Open",
+            "Escalated"
+          ]
+        }
+      }
+    },
+    {
+      "$project": {
+        "case_id": 1,
+        "patient_id": 1,
+        "case_type": 1,
+        "opened_date": 1,
+        "event_count": {
+          "$size": "$events"
+        }
+      }
+    },
+    {
+      "$sort": {
+        "opened_date": 1
+      }
+    }
+  ],
+  "event_type_counts": [
+    {
+      "$unwind": "$events"
+    },
+    {
+      "$group": {
+        "_id": "$events.event_type",
+        "events": {
+          "$sum": 1
+        }
+      }
+    },
+    {
+      "$sort": {
+        "events": -1
+      }
+    }
+  ],
+  "channel_event_counts": [
+    {
+      "$unwind": "$events"
+    },
+    {
+      "$group": {
+        "_id": {
+          "channel": "$events.channel",
+          "event_type": "$events.event_type"
+        },
+        "events": {
+          "$sum": 1
+        }
+      }
+    },
+    {
+      "$sort": {
+        "events": -1
+      }
+    }
+  ]
+}

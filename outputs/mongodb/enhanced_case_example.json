@@ -1,0 +1,126 @@
+{
+  "case_id": "C00001",
+  "patient_id": "P0125",
+  "case_type": "Referral query",
+  "opened_date": "2026-01-02",
+  "case_status": "Closed",
+  "priority": "Low",
+  "related_appointments": [
+    "A00454",
+    "A00418",
+    "A00215"
+  ],
+  "events": [
+    {
+      "event_no": 1,
+      "timestamp": "2026-01-02 11:30",
+      "channel": "mobile_app",
+      "event_type": "message_received",
+      "note": "Status changed"
+    },
+    {
+      "event_no": 2,
+      "timestamp": "2026-01-03 10:30",
+      "channel": "SMS",
+      "event_type": "status_changed",
+      "note": "Patient requested update"
+    },
+    {
+      "event_no": 3,
+      "timestamp": "2026-01-03 07:30",
+      "channel": "web_form",
+      "event_type": "patient_reply",
+      "note": "Reminder sent"
+    },
+    {
+      "event_no": 4,
+      "timestamp": "2026-01-03 23:30",
+      "channel": "mobile_app",
+      "event_type": "message_received",
+      "note": "Staff reviewed case"
+    },
+    {
+      "event_no": 5,
+      "timestamp": "2026-01-04 03:30",
+      "channel": "SMS",
+      "event_type": "reminder_sent",
+      "note": "Patient requested update"
+    },
+    {
+      "event_no": 6,
+      "timestamp": "2026-01-05 09:30",
+      "channel": "web_form",
+      "event_type": "staff_note",
+      "note": "Patient requested update"
+    }
+  ],
+  "satisfaction_after_case": 2,
+  "patient_profile": {
+    "age": 54,
+    "gender": "Female",
+    "postcode_area": "W7",
+    "registered_clinic_id": "CL004",
+    "long_term_condition": "Multiple",
+    "digital_access": "Medium"
+  },
+  "recent_appointments": [
+    {
+      "appointment_id": "A00215",
+      "patient_id": "P0125",
+      "clinic_id": "CL004",
+      "service_type": "Prescription Review",
+      "booking_datetime": "2026-04-16 15:00",
+      "appointment_datetime": "2026-04-18 17:00",
+      "status": "Completed",
+      "waiting_days": 2,
+      "appointment_duration_min": 60,
+      "reminder_sent": "Yes"
+    },
+    {
+      "appointment_id": "A00418",
+      "patient_id": "P0125",
+      "clinic_id": "CL004",
+      "service_type": "Community Follow-up",
+      "booking_datetime": "2026-05-10 09:30",
+      "appointment_datetime": "2026-05-18 10:30",
+      "status": "Completed",
+      "waiting_days": 8,
+      "appointment_duration_min": 30,
+      "reminder_sent": "Yes"
+    },
+    {
+      "appointment_id": "A00454",
+      "patient_id": "P0125",
+      "clinic_id": "CL004",
+      "service_type": "Nurse Appointment",
+      "booking_datetime": "2026-04-22 10:15",
+      "appointment_datetime": "2026-05-11 13:15",
+      "status": "Completed",
+      "waiting_days": 19,
+      "appointment_duration_min": 20,
+      "reminder_sent": "Yes"
+    }
+  ],
+  "recent_feedback": [
+    {
+      "feedback_id": "F00089",
+      "patient_id": "P0125",
+      "appointment_id": "A00215",
+      "clinic_id": "CL004",
+      "rating": 4,
+      "complaint_flag": "Yes",
+      "complaint_reason": "Visit delay",
+      "response_days": 0
+    },
+    {
+      "feedback_id": "F00193",
+      "patient_id": "P0125",
+      "appointment_id": "A00418",
+      "clinic_id": "CL004",
+      "rating": 4,
+      "complaint_flag": "No",
+      "complaint_reason": NaN,
+      "response_days": 0
+    }
+  ]
+}

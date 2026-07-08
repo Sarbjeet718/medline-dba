@@ -1,0 +1,17 @@
+{
+  "open_high_priority_cases": {
+    "priority": "High",
+    "case_status": {
+      "$in": [
+        "Open",
+        "Escalated"
+      ]
+    }
+  },
+  "patient_case_history": {
+    "patient_id": "P0125"
+  },
+  "escalation_event_cases": {
+    "events.event_type": "escalation"
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "cases_by_status_priority": [
+    {
+      "_id": {
+        "status": "Closed",
+        "priority": "Medium"
+      },
+      "cases": 40,
+      "avg_satisfaction": 3.15
+    },
+    {
+      "_id": {
+        "status": "Closed",
+        "priority": "Low"
+      },
+      "cases": 39,
+      "avg_satisfaction": 3.2051282051282053
+    },
+    {
+      "_id": {
+        "status": "Open",
+        "priority": "Medium"
+      },
+      "cases": 25,
+      "avg_satisfaction": 2.8
+    },
+    {
+      "_id": {
+        "status": "Open",
+        "priority": "Low"
+      },
+      "cases": 25,
+      "avg_satisfaction": 3.12
+    },
+    {
+      "_id": {
+        "status": "Closed",
+        "priority": "High"
+      },
+      "cases": 16,
+      "avg_satisfaction": 2.9375
+    },
+    {
+      "_id": {
+        "status": "Escalated",
+        "priority": "Medium"
+      },
+      "cases": 14,
+      "avg_satisfaction": 3.142857142857143
+    },
+    {
+      "_id": {
+        "status": "Open",
+        "priority": "High"
+      },
+      "cases": 12,
+      "avg_satisfaction": 2.4166666666666665
+    },
+    {
+      "_id": {
+        "status": "Escalated",
+        "priority": "Low"
+      },
+      "cases": 6,
+      "avg_satisfaction": 2.0
+    },
+    {
+      "_id": {
+        "status": "Escalated",
+        "priority": "High"
+      },
+      "cases": 3,
+      "avg_satisfaction": 2.3333333333333335
+    }
+  ],
+  "high_priority_open_cases": [
+    {
+      "_id": "6a4e9c8c476ff14dc9ec0766",
+      "case_id": "C00172",
+      "patient_id": "P0103",
+      "case_type": "Referral query",
+      "opened_date": "2026-01-15",
+      "event_count": 2
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec0719",
+      "case_id": "C00095",
+      "patient_id": "P0021",
+      "case_type": "Online consultation",
+      "opened_date": "2026-01-24",
+      "event_count": 4
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec06fd",
+      "case_id": "C00067",
+      "patient_id": "P0204",
+      "case_type": "Prescription support",
+      "opened_date": "2026-02-21",
+      "event_count": 3
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec0708",
+      "case_id": "C00078",
+      "patient_id": "P0048",
+      "case_type": "Prescription support",
+      "opened_date": "2026-02-26",
+      "event_count": 4
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec0709",
+      "case_id": "C00079",
+      "patient_id": "P0023",
+      "case_type": "Online consultation",
+      "opened_date": "2026-02-26",
+      "event_count": 4
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec070f",
+      "case_id": "C00085",
+      "patient_id": "P0128",
+      "case_type": "Prescription support",
+      "opened_date": "2026-03-04",
+      "event_count": 2
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec0720",
+      "case_id": "C00102",
+      "patient_id": "P0075",
+      "case_type": "Online consultation",
+      "opened_date": "2026-03-30",
+      "event_count": 3
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec075d",
+      "case_id": "C00163",
+      "patient_id": "P0146",
+      "case_type": "Online consultation",
+      "opened_date": "2026-03-30",
+      "event_count": 5
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec06c8",
+      "case_id": "C00014",
+      "patient_id": "P0208",
+      "case_type": "Community visit query",
+      "opened_date": "2026-03-31",
+      "event_count": 6
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec06cd",
+      "case_id": "C00019",
+      "patient_id": "P0050",
+      "case_type": "Referral query",
+      "opened_date": "2026-04-08",
+      "event_count": 3
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec0710",
+      "case_id": "C00086",
+      "patient_id": "P0089",
+      "case_type": "Community visit query",
+      "opened_date": "2026-04-27",
+      "event_count": 5
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec074f",
+      "case_id": "C00149",
+      "patient_id": "P0239",
+      "case_type": "Referral query",
+      "opened_date": "2026-05-01",
+      "event_count": 5
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec06e3",
+      "case_id": "C00041",
+      "patient_id": "P0064",
+      "case_type": "Referral query",
+      "opened_date": "2026-05-12",
+      "event_count": 4
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec076b",
+      "case_id": "C00177",
+      "patient_id": "P0155",
+      "case_type": "Community visit query",
+      "opened_date": "2026-06-23",
+      "event_count": 4
+    },
+    {
+      "_id": "6a4e9c8c476ff14dc9ec06f5",
+      "case_id": "C00059",
+      "patient_id": "P0136",
+      "case_type": "Appointment issue",
+      "opened_date": "2026-06-24",
+      "event_count": 4
+    }
+  ],
+  "event_type_counts": [
+    {
+      "_id": "status_changed",
+      "events": 137
+    },
+    {
+      "_id": "message_received",
+      "events": 125
+    },
+    {
+      "_id": "staff_note",
+      "events": 123
+    },
+    {
+      "_id": "reminder_sent",
+      "events": 117
+    },
+    {
+      "_id": "patient_reply",
+      "events": 115
+    },
+    {
+      "_id": "escalation",
+      "events": 102
+    }
+  ],
+  "channel_event_counts": [
+    {
+      "_id": {
+        "channel": "phone",
+        "event_type": "message_received"
+      },
+      "events": 45
+    },
+    {
+      "_id": {
+        "channel": "web_form",
+        "event_type": "status_changed"
+      },
+      "events": 39
+    },
+    {
+      "_id": {
+        "channel": "mobile_app",
+        "event_type": "patient_reply"
+      },
+      "events": 38
+    },
+    {
+      "_id": {
+        "channel": "web_form",
+        "event_type": "staff_note"
+      },
+      "events": 36
+    },
+    {
+      "_id": {
+        "channel": "phone",
+        "event_type": "status_changed"
+      },
+      "events": 36
+    },
+    {
+      "_id": {
+        "channel": "mobile_app",
+        "event_type": "message_received"
+      },
+      "events": 35
+    },
+    {
+      "_id": {
+        "channel": "mobile_app",
+        "event_type": "reminder_sent"
+      },
+      "events": 34
+    },
+    {
+      "_id": {
+        "channel": "mobile_app",
+        "event_type": "status_changed"
+      },
+      "events": 32
+    },
+    {
+      "_id": {
+        "channel": "mobile_app",
+        "event_type": "staff_note"
+      },
+      "events": 31
+    },
+    {
+      "_id": {
+        "channel": "web_form",
+        "event_type": "patient_reply"
+      },
+      "events": 31
+    },
+    {
+      "_id": {
+        "channel": "web_form",
+        "event_type": "escalation"
+      },
+      "events": 30
+    },
+    {
+      "_id": {
+        "channel": "SMS",
+        "event_type": "status_changed"
+      },
+      "events": 30
+    },
+    {
+      "_id": {
+        "channel": "phone",
+        "event_type": "staff_note"
+      },
+      "events": 30
+    },
+    {
+      "_id": {
+        "channel": "mobile_app",
+        "event_type": "escalation"
+      },
+      "events": 30
+    },
+    {
+      "_id": {
+        "channel": "SMS",
+        "event_type": "reminder_sent"
+      },
+      "events": 29
+    },
+    {
+      "_id": {
+        "channel": "web_form",
+        "event_type": "reminder_sent"
+      },
+      "events": 29
+    },
+    {
+      "_id": {
+        "channel": "phone",
+        "event_type": "patient_reply"
+      },
+      "events": 28
+    },
+    {
+      "_id": {
+        "channel": "SMS",
+        "event_type": "message_received"
+      },
+      "events": 26
+    },
+    {
+      "_id": {
+        "channel": "SMS",
+        "event_type": "staff_note"
+      },
+      "events": 26
+    },
+    {
+      "_id": {
+        "channel": "phone",
+        "event_type": "reminder_sent"
+      },
+      "events": 25
+    },
+    {
+      "_id": {
+        "channel": "SMS",
+        "event_type": "escalation"
+      },
+      "events": 24
+    },
+    {
+      "_id": {
+        "channel": "web_form",
+        "event_type": "message_received"
+      },
+      "events": 19
+    },
+    {
+      "_id": {
+        "channel": "phone",
+        "event_type": "escalation"
+      },
+      "events": 18
+    },
+    {
+      "_id": {
+        "channel": "SMS",
+        "event_type": "patient_reply"
+      },
+      "events": 18
+    }
+  ]
+}

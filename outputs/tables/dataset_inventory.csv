@@ -1,0 +1,11 @@
+dataset,rows,columns,missing_cells
+patients,250,7,98
+clinics,6,6,0
+staff,60,5,0
+appointments,700,10,0
+referrals,250,8,0
+prescriptions,400,9,121
+nurse_visits,300,9,147
+patient_feedback,350,8,210
+digital_interactions,719,10,0
+data_dictionary,10,3,0

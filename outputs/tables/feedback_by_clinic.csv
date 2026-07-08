@@ -1,0 +1,7 @@
+clinic_id,clinic_name,feedback_count,avg_rating,complaints,avg_waiting_days,complaint_rate
+CL001,Riverside Clinic,64,3.234375,64,10.28125,100.0
+CL002,Green Park Health Centre,51,3.019607843137255,51,13.450980392156863,100.0
+CL003,Northgate Diagnostics,75,3.013333333333333,75,11.76,100.0
+CL004,Westbridge Community Clinic,55,3.1272727272727274,55,11.654545454545454,100.0
+CL005,Hillview Medical Hub,42,3.2142857142857144,42,12.80952380952381,100.0
+CL006,Canal Walk Clinic,63,2.7936507936507935,63,11.65079365079365,100.0

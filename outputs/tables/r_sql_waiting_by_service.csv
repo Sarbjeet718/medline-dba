@@ -1,0 +1,7 @@
+service_type,appointments,avg_waiting_days,max_waiting_days
+Blood Test,111,13.53,28
+GP Consultation,104,13.32,28
+Community Follow-up,119,13.32,27
+Diagnostic Scan,123,13.01,28
+Nurse Appointment,117,12.57,28
+Prescription Review,126,11.37,28

@@ -1,0 +1,9 @@
+check,failed_count
+Duplicate appointment_id,0
+Duplicate patient_id,0
+Appointments with unknown patient_id,0
+Appointments with unknown clinic_id,0
+Feedback with unknown appointment_id,0
+Referrals with unknown appointment_id,0
+Negative waiting_days,0
+Prescription processed before request,0

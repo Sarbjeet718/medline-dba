@@ -1,0 +1,9 @@
+dataset,rows,columns
+patients,250,7
+clinics,6,6
+staff,60,5
+appointments,700,10
+referrals,250,8
+prescriptions,400,9
+nurse_visits,300,9
+patient_feedback,350,8

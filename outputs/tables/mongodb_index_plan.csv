@@ -1,0 +1,6 @@
+index_name,fields,purpose
+case_id_unique,case_id,Fast lookup of one service case
+patient_id_index,patient_id,Patient case history search
+status_priority_opened,"case_status, priority, opened_date",Open/escalated dashboard queries
+events_event_type,events.event_type,Nested event-type analysis
+events_channel,events.channel,Nested communication-channel analysis

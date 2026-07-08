@@ -1,0 +1,7 @@
+clinic_id,clinic_name,appointments,bad_outcomes,bad_outcome_rate,avg_waiting_days
+CL006,Canal Walk Clinic,127,52,40.94,13.09
+CL001,Riverside Clinic,127,46,36.22,12.56
+CL003,Northgate Diagnostics,130,41,31.54,12.02
+CL002,Green Park Health Centre,96,27,28.13,13.8
+CL004,Westbridge Community Clinic,117,32,27.35,12.32
+CL005,Hillview Medical Hub,103,22,21.36,13.48

@@ -1,0 +1,6 @@
+status,appointments,percentage
+Completed,427,61.0
+Cancelled by patient,86,12.285714285714286
+Cancelled by clinic,83,11.857142857142858
+Rescheduled,53,7.571428571428572
+No-show,51,7.285714285714286

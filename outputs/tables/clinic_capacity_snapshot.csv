@@ -1,0 +1,7 @@
+clinic_id,clinic_name,town,clinic_type,capacity_per_day,staff_count,staff_records,total_weekly_hours,avg_experience_years
+CL001,Riverside Clinic,Ealing,General Practice,85,18,13,318.0,9.692307692307692
+CL002,Green Park Health Centre,Hounslow,General Practice,70,15,14,416.5,10.642857142857142
+CL003,Northgate Diagnostics,Uxbridge,Diagnostics,55,12,5,124.0,8.2
+CL004,Westbridge Community Clinic,Southall,Community Care,60,14,12,342.0,8.666666666666666
+CL005,Hillview Medical Hub,Acton,Mixed Service,75,16,9,272.0,8.555555555555555
+CL006,Canal Walk Clinic,Brentford,General Practice,50,9,7,178.0,8.571428571428571

@@ -1,0 +1,2 @@
+id,parent,notused,detail
+3,0,61,SEARCH appointments USING INDEX idx_appointments_clinic_status (clinic_id=? AND status=?)

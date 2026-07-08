@@ -1,0 +1,16 @@
+workload,run,duration_ms
+open_high_priority_cases,1,21.801099996082485
+open_high_priority_cases,2,20.35559999058023
+open_high_priority_cases,3,21.05669997399673
+open_high_priority_cases,4,22.513800009619445
+open_high_priority_cases,5,20.672300015576184
+patient_case_history,1,25.482999975793064
+patient_case_history,2,18.862599972635508
+patient_case_history,3,19.042400002945215
+patient_case_history,4,18.8071999582462
+patient_case_history,5,22.517099976539612
+escalation_event_cases,1,56.58669996773824
+escalation_event_cases,2,26.053400011733174
+escalation_event_cases,3,30.139899987261742
+escalation_event_cases,4,26.05849999235943
+escalation_event_cases,5,28.95940002053976

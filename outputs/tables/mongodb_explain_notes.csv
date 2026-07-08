@@ -1,0 +1,4 @@
+workload,uses_ixscan,uses_collscan,winning_plan_stage
+open_high_priority_cases,True,False,LIMIT
+patient_case_history,True,False,LIMIT
+escalation_event_cases,True,False,LIMIT

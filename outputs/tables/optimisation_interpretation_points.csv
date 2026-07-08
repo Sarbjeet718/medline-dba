@@ -1,0 +1,4 @@
+point,explanation
+Benefit,"Indexes support faster read queries for case lookup, patient history and open high-priority cases."
+Cost,Indexes use extra storage and can slow inserts or updates because index entries must also be maintained.
+Decision,The selected indexes match repeated operational queries from the MedLine case study rather than indexing every field.

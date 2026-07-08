@@ -1,0 +1,7 @@
+clinic_id,clinic_name,visits,problem_visits,problem_visit_rate,avg_arrival_delay_min
+CL004,Westbridge Community Clinic,83,37,44.57831325301205,13.012048192771084
+CL001,Riverside Clinic,76,32,42.10526315789473,11.842105263157896
+CL006,Canal Walk Clinic,51,20,39.21568627450981,12.352941176470589
+CL003,Northgate Diagnostics,30,10,33.33333333333333,9
+CL005,Hillview Medical Hub,33,11,33.33333333333333,15.909090909090908
+CL002,Green Park Health Centre,27,8,29.629629629629626,10.555555555555555

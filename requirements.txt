@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+pymongo
+dnspython
+nbformat
+nbclient
+ipykernel

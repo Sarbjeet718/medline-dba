@@ -1,0 +1,6 @@
+status,feedback_count,avg_rating,complaint_rate
+No-show,28,2.0357142857142856,NA
+Rescheduled,22,2.227272727272727,NA
+Cancelled by clinic,45,2.2666666666666666,NA
+Cancelled by patient,48,2.625,NA
+Completed,207,3.5555555555555554,NA

@@ -1,0 +1,517 @@
+{
+  "open_high_priority_cases": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "medline_resit.patient_service_cases",
+      "parsedQuery": {
+        "$and": [
+          {
+            "priority": {
+              "$eq": "High"
+            }
+          },
+          {
+            "case_status": {
+              "$in": [
+                "Escalated",
+                "Open"
+              ]
+            }
+          }
+        ]
+      },
+      "indexFilterSet": false,
+      "queryHash": "FDD82CEA",
+      "planCacheShapeHash": "FDD82CEA",
+      "planCacheKey": "0459D7BF",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "LIMIT",
+        "limitAmount": 50,
+        "inputStage": {
+          "stage": "FETCH",
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "case_status": 1,
+              "priority": 1,
+              "opened_date": -1
+            },
+            "indexName": "status_priority_opened",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "case_status": [],
+              "priority": [],
+              "opened_date": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "case_status": [
+                "[\"Escalated\", \"Escalated\"]",
+                "[\"Open\", \"Open\"]"
+              ],
+              "priority": [
+                "[\"High\", \"High\"]"
+              ],
+              "opened_date": [
+                "[MaxKey, MinKey]"
+              ]
+            }
+          }
+        }
+      },
+      "rejectedPlans": []
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 15,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 17,
+      "totalDocsExamined": 15,
+      "executionStages": {
+        "isCached": false,
+        "stage": "LIMIT",
+        "nReturned": 15,
+        "executionTimeMillisEstimate": 0,
+        "works": 17,
+        "advanced": 15,
+        "needTime": 1,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "limitAmount": 50,
+        "inputStage": {
+          "stage": "FETCH",
+          "nReturned": 15,
+          "executionTimeMillisEstimate": 0,
+          "works": 17,
+          "advanced": 15,
+          "needTime": 1,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "docsExamined": 15,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 15,
+            "executionTimeMillisEstimate": 0,
+            "works": 17,
+            "advanced": 15,
+            "needTime": 1,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 1,
+            "keyPattern": {
+              "case_status": 1,
+              "priority": 1,
+              "opened_date": -1
+            },
+            "indexName": "status_priority_opened",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "case_status": [],
+              "priority": [],
+              "opened_date": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "case_status": [
+                "[\"Escalated\", \"Escalated\"]",
+                "[\"Open\", \"Open\"]"
+              ],
+              "priority": [
+                "[\"High\", \"High\"]"
+              ],
+              "opened_date": [
+                "[MaxKey, MinKey]"
+              ]
+            },
+            "keysExamined": 17,
+            "seeks": 2,
+            "dupsTested": 0,
+            "dupsDropped": 0
+          }
+        }
+      },
+      "allPlansExecution": []
+    },
+    "queryShapeHash": "EA933BD4C6880643B80A11FBE7592782D7CBA1B90D227D801D127889AFD7CAF5",
+    "command": {
+      "find": "patient_service_cases",
+      "filter": {
+        "priority": "High",
+        "case_status": {
+          "$in": [
+            "Open",
+            "Escalated"
+          ]
+        }
+      },
+      "limit": 50,
+      "singleBatch": true,
+      "$db": "medline_resit"
+    },
+    "serverInfo": {
+      "host": "ac-ia4blmp-shard-00-01.jpxecvf.mongodb.net",
+      "port": 27017,
+      "version": "8.0.24-patch-6a3992052eafe5000797a34e",
+      "gitVersion": "b19191cc9f5587bb41616283b0a4ca0b3ae522ae"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 16793600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 33554432,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0,
+    "$clusterTime": {
+      "clusterTime": "Timestamp(1783536784, 14)",
+      "signature": {
+        "hash": "b'Py\\xf0\\xf0\\xe1\\x8d\\xf4\\xa1fZ\\x80d\\x10g\\xd1E\\x06\\x90\\xb27'",
+        "keyId": 7600787796776714242
+      }
+    },
+    "operationTime": "Timestamp(1783536784, 14)"
+  },
+  "patient_case_history": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "medline_resit.patient_service_cases",
+      "parsedQuery": {
+        "patient_id": {
+          "$eq": "P0125"
+        }
+      },
+      "indexFilterSet": false,
+      "queryHash": "A4F3C95B",
+      "planCacheShapeHash": "A4F3C95B",
+      "planCacheKey": "62D54311",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "LIMIT",
+        "limitAmount": 50,
+        "inputStage": {
+          "stage": "FETCH",
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "patient_id": 1
+            },
+            "indexName": "patient_id_index",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "patient_id": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "patient_id": [
+                "[\"P0125\", \"P0125\"]"
+              ]
+            }
+          }
+        }
+      },
+      "rejectedPlans": []
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 2,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 2,
+      "totalDocsExamined": 2,
+      "executionStages": {
+        "isCached": false,
+        "stage": "LIMIT",
+        "nReturned": 2,
+        "executionTimeMillisEstimate": 0,
+        "works": 3,
+        "advanced": 2,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "limitAmount": 50,
+        "inputStage": {
+          "stage": "FETCH",
+          "nReturned": 2,
+          "executionTimeMillisEstimate": 0,
+          "works": 3,
+          "advanced": 2,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "docsExamined": 2,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 2,
+            "executionTimeMillisEstimate": 0,
+            "works": 3,
+            "advanced": 2,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 1,
+            "keyPattern": {
+              "patient_id": 1
+            },
+            "indexName": "patient_id_index",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "patient_id": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "patient_id": [
+                "[\"P0125\", \"P0125\"]"
+              ]
+            },
+            "keysExamined": 2,
+            "seeks": 1,
+            "dupsTested": 0,
+            "dupsDropped": 0
+          }
+        }
+      },
+      "allPlansExecution": []
+    },
+    "queryShapeHash": "92CF99EE9C1EC59249B4C9A1BD75573195BEECE1BE37648D046420AF8E4D7B75",
+    "command": {
+      "find": "patient_service_cases",
+      "filter": {
+        "patient_id": "P0125"
+      },
+      "limit": 50,
+      "singleBatch": true,
+      "$db": "medline_resit"
+    },
+    "serverInfo": {
+      "host": "ac-ia4blmp-shard-00-01.jpxecvf.mongodb.net",
+      "port": 27017,
+      "version": "8.0.24-patch-6a3992052eafe5000797a34e",
+      "gitVersion": "b19191cc9f5587bb41616283b0a4ca0b3ae522ae"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 16793600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 33554432,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0,
+    "$clusterTime": {
+      "clusterTime": "Timestamp(1783536784, 14)",
+      "signature": {
+        "hash": "b'Py\\xf0\\xf0\\xe1\\x8d\\xf4\\xa1fZ\\x80d\\x10g\\xd1E\\x06\\x90\\xb27'",
+        "keyId": 7600787796776714242
+      }
+    },
+    "operationTime": "Timestamp(1783536784, 14)"
+  },
+  "escalation_event_cases": {
+    "explainVersion": "1",
+    "queryPlanner": {
+      "namespace": "medline_resit.patient_service_cases",
+      "parsedQuery": {
+        "events.event_type": {
+          "$eq": "escalation"
+        }
+      },
+      "indexFilterSet": false,
+      "queryHash": "C5180E31",
+      "planCacheShapeHash": "C5180E31",
+      "planCacheKey": "15BBCED6",
+      "optimizationTimeMillis": 0,
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "prunedSimilarIndexes": false,
+      "winningPlan": {
+        "isCached": false,
+        "stage": "LIMIT",
+        "limitAmount": 50,
+        "inputStage": {
+          "stage": "FETCH",
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": {
+              "events.event_type": 1
+            },
+            "indexName": "events_event_type",
+            "isMultiKey": true,
+            "multiKeyPaths": {
+              "events.event_type": [
+                "events"
+              ]
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "events.event_type": [
+                "[\"escalation\", \"escalation\"]"
+              ]
+            }
+          }
+        }
+      },
+      "rejectedPlans": []
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 50,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 50,
+      "totalDocsExamined": 50,
+      "executionStages": {
+        "isCached": false,
+        "stage": "LIMIT",
+        "nReturned": 50,
+        "executionTimeMillisEstimate": 0,
+        "works": 51,
+        "advanced": 50,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "limitAmount": 50,
+        "inputStage": {
+          "stage": "FETCH",
+          "nReturned": 50,
+          "executionTimeMillisEstimate": 0,
+          "works": 50,
+          "advanced": 50,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 0,
+          "docsExamined": 50,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 50,
+            "executionTimeMillisEstimate": 0,
+            "works": 50,
+            "advanced": 50,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 0,
+            "keyPattern": {
+              "events.event_type": 1
+            },
+            "indexName": "events_event_type",
+            "isMultiKey": true,
+            "multiKeyPaths": {
+              "events.event_type": [
+                "events"
+              ]
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "events.event_type": [
+                "[\"escalation\", \"escalation\"]"
+              ]
+            },
+            "keysExamined": 50,
+            "seeks": 1,
+            "dupsTested": 50,
+            "dupsDropped": 0
+          }
+        }
+      },
+      "allPlansExecution": []
+    },
+    "queryShapeHash": "F1B10C14938A7EA345BBBA8BF038E32A5D98141A0A3AF5980CC42805752786C9",
+    "command": {
+      "find": "patient_service_cases",
+      "filter": {
+        "events.event_type": "escalation"
+      },
+      "limit": 50,
+      "singleBatch": true,
+      "$db": "medline_resit"
+    },
+    "serverInfo": {
+      "host": "ac-ia4blmp-shard-00-01.jpxecvf.mongodb.net",
+      "port": 27017,
+      "version": "8.0.24-patch-6a3992052eafe5000797a34e",
+      "gitVersion": "b19191cc9f5587bb41616283b0a4ca0b3ae522ae"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 16793600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 33554432,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+      "internalQueryFrameworkControl": "trySbeRestricted",
+      "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "ok": 1.0,
+    "$clusterTime": {
+      "clusterTime": "Timestamp(1783536784, 14)",
+      "signature": {
+        "hash": "b'Py\\xf0\\xf0\\xe1\\x8d\\xf4\\xa1fZ\\x80d\\x10g\\xd1E\\x06\\x90\\xb27'",
+        "keyId": 7600787796776714242
+      }
+    },
+    "operationTime": "Timestamp(1783536784, 14)"
+  }
+}
