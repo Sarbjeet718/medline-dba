@@ -1,0 +1,251 @@
+patient_id,age,gender,postcode_area,registered_clinic_id,long_term_condition,digital_access
+P0001,25,Other/Prefer not to say,TW4,CL001,None,Medium
+P0002,85,Female,W5,CL005,None,High
+P0003,26,Other/Prefer not to say,UB2,CL004,None,Low
+P0004,49,Other/Prefer not to say,UB8,CL001,Asthma,High
+P0005,84,Male,TW3,CL002,Asthma,High
+P0006,51,Male,UB1,CL006,Asthma,Medium
+P0007,27,Female,W13,CL005,Multiple,Low
+P0008,27,Other/Prefer not to say,UB2,CL005,None,Low
+P0009,26,Female,TW4,CL003,None,Low
+P0010,56,Other/Prefer not to say,HA4,CL001,Asthma,Medium
+P0011,31,Female,TW3,CL001,Heart condition,Medium
+P0012,37,Male,TW3,CL005,None,High
+P0013,51,Other/Prefer not to say,W13,CL003,Heart condition,Low
+P0014,29,Other/Prefer not to say,W3,CL003,None,High
+P0015,34,Other/Prefer not to say,TW3,CL002,Hypertension,Medium
+P0016,72,Other/Prefer not to say,W5,CL001,None,Low
+P0017,37,Other/Prefer not to say,W5,CL003,Asthma,High
+P0018,34,Female,TW3,CL003,Heart condition,Medium
+P0019,23,Male,UB2,CL006,None,High
+P0020,70,Other/Prefer not to say,UB1,CL002,Heart condition,Low
+P0021,40,Male,W5,CL002,Hypertension,High
+P0022,70,Other/Prefer not to say,UB2,CL003,None,Medium
+P0023,66,Female,W13,CL002,None,Low
+P0024,62,Male,UB2,CL002,None,High
+P0025,60,Male,W7,CL003,None,Medium
+P0026,86,Male,W5,CL001,Heart condition,High
+P0027,51,Female,W7,CL005,Diabetes,Medium
+P0028,58,Male,UB8,CL005,None,Low
+P0029,42,Male,W5,CL006,Diabetes,Medium
+P0030,86,Other/Prefer not to say,UB2,CL003,Diabetes,Low
+P0031,60,Other/Prefer not to say,TW4,CL006,Hypertension,Medium
+P0032,56,Other/Prefer not to say,TW3,CL006,None,High
+P0033,55,Other/Prefer not to say,UB1,CL002,Diabetes,Low
+P0034,40,Other/Prefer not to say,UB8,CL003,None,Low
+P0035,56,Male,UB2,CL004,Hypertension,Medium
+P0036,59,Male,W13,CL004,Asthma,Medium
+P0037,39,Other/Prefer not to say,W7,CL003,Diabetes,Medium
+P0038,60,Female,UB2,CL006,None,Low
+P0039,36,Female,W5,CL002,Multiple,Medium
+P0040,27,Male,W3,CL006,Asthma,Medium
+P0041,67,Male,W3,CL002,None,Medium
+P0042,31,Male,UB2,CL002,Hypertension,Medium
+P0043,77,Female,HA4,CL002,Heart condition,High
+P0044,35,Male,HA4,CL005,Asthma,Low
+P0045,74,Other/Prefer not to say,HA4,CL004,Hypertension,Medium
+P0046,38,Other/Prefer not to say,W13,CL004,None,High
+P0047,53,Other/Prefer not to say,W13,CL006,None,High
+P0048,54,Female,TW3,CL003,None,Medium
+P0049,35,Female,UB2,CL004,Asthma,Medium
+P0050,26,Male,W3,CL003,Diabetes,High
+P0051,44,Male,W3,CL005,Multiple,High
+P0052,66,Male,W5,CL003,None,High
+P0053,71,Other/Prefer not to say,HA4,CL005,Heart condition,Medium
+P0054,52,Male,W13,CL001,None,Medium
+P0055,69,Other/Prefer not to say,UB1,CL004,Heart condition,Low
+P0056,86,Female,W3,CL005,Asthma,High
+P0057,72,Female,W13,CL002,None,High
+P0058,45,Male,TW4,CL003,Hypertension,High
+P0059,71,Male,W7,CL004,None,Medium
+P0060,62,Female,W7,CL006,None,High
+P0061,49,Female,W5,CL005,None,High
+P0062,32,Other/Prefer not to say,UB2,CL004,Asthma,Medium
+P0063,39,Other/Prefer not to say,UB8,CL006,Hypertension,Medium
+P0064,38,Male,W7,CL005,None,High
+P0065,66,Male,UB2,CL001,Asthma,Low
+P0066,49,Female,TW3,CL006,Asthma,High
+P0067,23,Male,HA4,CL004,Asthma,High
+P0068,61,Female,W3,CL004,None,Low
+P0069,76,Other/Prefer not to say,UB1,CL004,None,Medium
+P0070,52,Other/Prefer not to say,HA4,CL004,Diabetes,Low
+P0071,52,Male,UB2,CL001,None,Medium
+P0072,77,Other/Prefer not to say,UB8,CL006,None,High
+P0073,59,Female,W13,CL002,None,High
+P0074,53,Other/Prefer not to say,TW3,CL005,None,Low
+P0075,28,Female,W3,CL004,Diabetes,High
+P0076,78,Other/Prefer not to say,W13,CL004,Hypertension,High
+P0077,46,Male,UB2,CL003,Asthma,High
+P0078,88,Other/Prefer not to say,TW4,CL004,Multiple,Medium
+P0079,63,Other/Prefer not to say,W13,CL003,None,High
+P0080,42,Male,W7,CL006,Diabetes,Medium
+P0081,41,Female,UB2,CL006,Diabetes,Medium
+P0082,85,Other/Prefer not to say,TW3,CL001,Hypertension,High
+P0083,64,Female,TW3,CL001,Hypertension,High
+P0084,23,Female,HA4,CL003,Asthma,High
+P0085,80,Female,W5,CL005,None,Medium
+P0086,61,Female,W5,CL003,Multiple,Medium
+P0087,26,Male,W13,CL001,Asthma,Medium
+P0088,37,Female,UB8,CL003,None,High
+P0089,71,Other/Prefer not to say,UB8,CL005,None,Medium
+P0090,75,Male,TW3,CL005,Multiple,High
+P0091,25,Other/Prefer not to say,W7,CL002,Asthma,High
+P0092,28,Female,UB2,CL002,Diabetes,High
+P0093,70,Male,UB8,CL004,None,High
+P0094,54,Other/Prefer not to say,W13,CL001,Asthma,Low
+P0095,43,Male,W7,CL005,None,High
+P0096,52,Female,W7,CL001,None,High
+P0097,54,Male,W7,CL004,Asthma,Medium
+P0098,52,Other/Prefer not to say,HA4,CL004,Diabetes,Medium
+P0099,73,Other/Prefer not to say,TW4,CL005,None,High
+P0100,20,Other/Prefer not to say,TW3,CL005,None,Medium
+P0101,78,Other/Prefer not to say,W13,CL003,None,Medium
+P0102,80,Female,W13,CL003,None,High
+P0103,31,Female,TW4,CL004,Asthma,High
+P0104,69,Other/Prefer not to say,W5,CL004,None,High
+P0105,32,Male,HA4,CL001,Asthma,Medium
+P0106,70,Female,UB2,CL005,None,Medium
+P0107,74,Female,UB2,CL003,Diabetes,Low
+P0108,74,Other/Prefer not to say,W13,CL001,None,Medium
+P0109,48,Other/Prefer not to say,UB1,CL003,Diabetes,Medium
+P0110,29,Female,W7,CL004,Multiple,Medium
+P0111,37,Male,TW3,CL005,Hypertension,High
+P0112,79,Male,UB2,CL004,Diabetes,High
+P0113,83,Other/Prefer not to say,UB1,CL001,None,Medium
+P0114,71,Male,HA4,CL003,Hypertension,High
+P0115,56,Other/Prefer not to say,UB8,CL006,Diabetes,High
+P0116,86,Male,TW4,CL003,Diabetes,Medium
+P0117,76,Male,UB2,CL006,None,High
+P0118,70,Female,TW4,CL006,Diabetes,Low
+P0119,66,Male,UB1,CL004,Multiple,High
+P0120,60,Female,W13,CL001,Diabetes,Medium
+P0121,36,Male,UB1,CL001,Diabetes,Low
+P0122,61,Other/Prefer not to say,W3,CL006,None,High
+P0123,86,Male,TW4,CL006,Hypertension,Medium
+P0124,87,Female,UB8,CL001,None,Medium
+P0125,54,Female,W7,CL004,Multiple,Medium
+P0126,30,Male,UB1,CL006,None,High
+P0127,59,Female,TW3,CL003,None,High
+P0128,85,Male,UB8,CL006,Hypertension,High
+P0129,28,Other/Prefer not to say,W3,CL005,Asthma,Medium
+P0130,36,Female,W13,CL006,None,High
+P0131,19,Male,TW3,CL006,Diabetes,High
+P0132,62,Other/Prefer not to say,TW3,CL006,Multiple,Medium
+P0133,76,Male,UB2,CL004,Hypertension,High
+P0134,66,Other/Prefer not to say,TW4,CL005,None,Medium
+P0135,20,Other/Prefer not to say,W3,CL003,None,Low
+P0136,24,Other/Prefer not to say,W13,CL003,Hypertension,High
+P0137,63,Female,UB2,CL005,None,Medium
+P0138,35,Other/Prefer not to say,W7,CL006,Asthma,High
+P0139,74,Female,UB8,CL003,Hypertension,High
+P0140,55,Male,W3,CL002,None,Medium
+P0141,64,Other/Prefer not to say,HA4,CL003,Hypertension,High
+P0142,79,Male,TW4,CL001,Diabetes,High
+P0143,46,Other/Prefer not to say,W3,CL005,None,Medium
+P0144,19,Male,HA4,CL001,Diabetes,Medium
+P0145,51,Other/Prefer not to say,W3,CL006,Multiple,High
+P0146,47,Male,W5,CL005,Heart condition,Medium
+P0147,46,Other/Prefer not to say,W7,CL006,Hypertension,Low
+P0148,56,Other/Prefer not to say,W3,CL001,None,Low
+P0149,56,Male,W7,CL001,None,Medium
+P0150,67,Male,TW4,CL006,Multiple,Medium
+P0151,87,Male,UB8,CL006,Hypertension,Low
+P0152,30,Male,UB8,CL004,Multiple,High
+P0153,65,Female,W13,CL004,Multiple,Low
+P0154,30,Other/Prefer not to say,TW4,CL005,Heart condition,Medium
+P0155,25,Male,TW3,CL002,Multiple,Low
+P0156,76,Female,UB2,CL006,Asthma,Low
+P0157,24,Male,UB2,CL002,Hypertension,High
+P0158,88,Female,UB8,CL002,Hypertension,High
+P0159,36,Other/Prefer not to say,W5,CL003,Hypertension,High
+P0160,34,Other/Prefer not to say,TW3,CL002,None,Low
+P0161,34,Female,TW4,CL002,Asthma,High
+P0162,51,Female,UB1,CL006,Diabetes,High
+P0163,26,Male,W13,CL003,Diabetes,High
+P0164,82,Female,UB8,CL001,Hypertension,Low
+P0165,84,Male,W13,CL006,Multiple,High
+P0166,79,Male,W3,CL006,None,Medium
+P0167,74,Female,W7,CL003,Asthma,High
+P0168,53,Other/Prefer not to say,UB8,CL005,Hypertension,High
+P0169,85,Male,W13,CL005,Asthma,High
+P0170,32,Other/Prefer not to say,HA4,CL006,Heart condition,High
+P0171,47,Male,TW4,CL004,None,Medium
+P0172,58,Male,TW4,CL006,None,Low
+P0173,78,Female,W7,CL001,None,High
+P0174,65,Female,HA4,CL001,Asthma,Medium
+P0175,60,Other/Prefer not to say,W7,CL004,None,Medium
+P0176,72,Other/Prefer not to say,W5,CL003,Asthma,High
+P0177,82,Female,UB1,CL006,Diabetes,Low
+P0178,62,Other/Prefer not to say,TW4,CL001,Hypertension,Medium
+P0179,72,Other/Prefer not to say,UB8,CL005,Asthma,Medium
+P0180,52,Female,UB1,CL003,Hypertension,High
+P0181,61,Male,W5,CL002,Heart condition,Medium
+P0182,69,Female,UB1,CL006,Asthma,High
+P0183,85,Female,W3,CL004,Diabetes,High
+P0184,57,Other/Prefer not to say,TW4,CL005,Asthma,Low
+P0185,37,Female,UB8,CL001,Asthma,High
+P0186,72,Male,UB8,CL004,None,High
+P0187,83,Female,TW4,CL004,None,Medium
+P0188,80,Other/Prefer not to say,TW3,CL001,None,Low
+P0189,25,Female,UB2,CL003,Multiple,Medium
+P0190,50,Male,TW4,CL001,None,Medium
+P0191,40,Female,W3,CL005,Hypertension,Medium
+P0192,63,Female,W3,CL006,None,High
+P0193,27,Male,UB8,CL004,Asthma,Medium
+P0194,71,Male,W7,CL004,None,High
+P0195,76,Other/Prefer not to say,TW4,CL001,Diabetes,High
+P0196,73,Other/Prefer not to say,W3,CL005,None,Low
+P0197,61,Female,TW4,CL002,None,Medium
+P0198,85,Other/Prefer not to say,UB2,CL003,None,Low
+P0199,36,Female,W7,CL002,None,High
+P0200,37,Other/Prefer not to say,W7,CL002,Multiple,Medium
+P0201,77,Other/Prefer not to say,UB8,CL004,Asthma,Low
+P0202,59,Other/Prefer not to say,TW4,CL002,Diabetes,Medium
+P0203,56,Male,UB8,CL001,None,High
+P0204,77,Male,W5,CL001,None,High
+P0205,29,Other/Prefer not to say,UB8,CL005,None,Medium
+P0206,23,Male,UB8,CL006,None,Medium
+P0207,82,Female,W5,CL004,None,Low
+P0208,61,Other/Prefer not to say,W7,CL005,Asthma,High
+P0209,74,Male,HA4,CL005,Asthma,High
+P0210,54,Male,W3,CL003,Asthma,High
+P0211,60,Female,TW4,CL001,Diabetes,High
+P0212,50,Other/Prefer not to say,UB8,CL002,None,Medium
+P0213,36,Male,TW3,CL006,Asthma,High
+P0214,28,Male,HA4,CL004,Asthma,High
+P0215,34,Other/Prefer not to say,HA4,CL001,Asthma,High
+P0216,64,Female,TW4,CL003,None,High
+P0217,80,Female,UB2,CL002,None,High
+P0218,30,Other/Prefer not to say,HA4,CL006,Heart condition,High
+P0219,61,Other/Prefer not to say,UB1,CL005,None,High
+P0220,39,Other/Prefer not to say,W13,CL001,None,Medium
+P0221,48,Male,UB8,CL003,Hypertension,Medium
+P0222,47,Other/Prefer not to say,UB2,CL003,Multiple,Medium
+P0223,42,Male,UB8,CL004,Diabetes,High
+P0224,66,Other/Prefer not to say,HA4,CL004,Multiple,Low
+P0225,35,Male,W5,CL006,Diabetes,High
+P0226,31,Other/Prefer not to say,HA4,CL001,None,Medium
+P0227,52,Male,HA4,CL002,Hypertension,High
+P0228,46,Male,TW4,CL001,None,High
+P0229,65,Female,W3,CL001,None,High
+P0230,30,Other/Prefer not to say,TW4,CL002,None,High
+P0231,78,Other/Prefer not to say,UB1,CL006,Diabetes,Medium
+P0232,28,Female,TW3,CL002,Hypertension,Medium
+P0233,85,Male,W7,CL003,None,High
+P0234,48,Male,UB8,CL004,None,Low
+P0235,81,Other/Prefer not to say,HA4,CL001,Asthma,Medium
+P0236,36,Male,W3,CL001,Asthma,High
+P0237,71,Female,W7,CL005,Multiple,High
+P0238,85,Other/Prefer not to say,HA4,CL005,Diabetes,High
+P0239,78,Female,W3,CL003,None,High
+P0240,26,Male,UB2,CL006,Asthma,High
+P0241,60,Female,W5,CL003,Diabetes,Low
+P0242,40,Other/Prefer not to say,W13,CL006,Diabetes,High
+P0243,35,Female,W13,CL001,None,High
+P0244,43,Female,TW4,CL003,Diabetes,Low
+P0245,87,Male,TW3,CL001,Hypertension,High
+P0246,63,Female,TW4,CL003,None,High
+P0247,69,Other/Prefer not to say,W13,CL004,None,High
+P0248,81,Male,HA4,CL003,Hypertension,Medium
+P0249,28,Male,UB8,CL002,Diabetes,High
+P0250,28,Male,TW3,CL003,Diabetes,Medium

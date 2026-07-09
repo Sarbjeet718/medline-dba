@@ -1,0 +1,11 @@
+file,description,key_fields
+patients.csv,Patient demographic and registration data,"patient_id, registered_clinic_id"
+clinics.csv,"Clinic capacity, type and location information",clinic_id
+staff.csv,"Staff roles, hours and clinic allocation","staff_id, clinic_id"
+appointments.csv,"Appointment bookings, status, waiting time and reminders","appointment_id, patient_id, clinic_id"
+referrals.csv,"Referral records, status, urgency and days open","referral_id, patient_id, appointment_id"
+prescriptions.csv,"Prescription request, processing and collection data","prescription_id, patient_id, clinic_id"
+nurse_visits.csv,"Community nurse visit scheduling, delays and completion status","visit_id, patient_id, staff_id"
+patient_feedback.csv,Patient satisfaction ratings and complaints linked to appointments,"feedback_id, appointment_id, patient_id"
+digital_interactions.csv,Flattened digital case interaction events for analytics,"case_id, patient_id"
+patient_service_cases.jsonl,Nested MongoDB-ready patient service case documents,"case_id, patient_id, events"

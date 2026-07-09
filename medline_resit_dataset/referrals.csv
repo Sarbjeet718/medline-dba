@@ -1,0 +1,251 @@
+referral_id,patient_id,appointment_id,target_service,created_date,referral_status,urgency,days_open
+R0001,P0096,A00467,Cardiology,2026-05-25,Open,Routine,23
+R0002,P0161,A00013,Community Nursing,2026-06-04,Delayed,Urgent,52
+R0003,P0104,A00408,Physiotherapy,2026-01-21,Completed,Routine,8
+R0004,P0198,A00434,Dermatology,2026-05-10,Delayed,Routine,67
+R0005,P0127,A00546,Diagnostics,2026-05-22,Delayed,Routine,55
+R0006,P0192,A00092,Dermatology,2026-06-12,Completed,Urgent,10
+R0007,P0125,A00215,Dermatology,2026-04-23,Completed,Routine,7
+R0008,P0117,A00504,Community Nursing,2026-04-07,Open,Routine,56
+R0009,P0074,A00671,Cardiology,2026-05-11,Completed,Routine,7
+R0010,P0139,A00138,Diagnostics,2026-06-28,Completed,Two-week wait,16
+R0011,P0205,A00581,Physiotherapy,2026-07-02,Open,Urgent,27
+R0012,P0042,A00266,Diagnostics,2026-04-20,Completed,Routine,22
+R0013,P0113,A00171,Mental Health,2026-03-03,Completed,Routine,4
+R0014,P0172,A00351,Mental Health,2026-06-07,Completed,Routine,26
+R0015,P0126,A00104,Physiotherapy,2026-04-26,Open,Routine,8
+R0016,P0159,A00100,Physiotherapy,2026-07-14,Completed,Routine,18
+R0017,P0124,A00273,Dermatology,2026-04-16,Completed,Routine,12
+R0018,P0181,A00380,Dermatology,2026-06-26,Delayed,Urgent,49
+R0019,P0209,A00682,Physiotherapy,2026-06-13,Completed,Two-week wait,29
+R0020,P0242,A00339,Community Nursing,2026-03-15,Open,Routine,20
+R0021,P0029,A00027,Diagnostics,2026-04-01,Open,Routine,34
+R0022,P0230,A00378,Community Nursing,2026-01-30,Completed,Urgent,18
+R0023,P0111,A00424,Community Nursing,2026-06-29,Open,Two-week wait,44
+R0024,P0032,A00018,Physiotherapy,2026-03-11,Completed,Two-week wait,25
+R0025,P0046,A00334,Diagnostics,2026-06-21,Completed,Routine,25
+R0026,P0127,A00628,Mental Health,2026-02-21,Completed,Two-week wait,29
+R0027,P0222,A00103,Diagnostics,2026-01-14,Completed,Routine,6
+R0028,P0066,A00533,Community Nursing,2026-06-01,Delayed,Routine,19
+R0029,P0128,A00510,Community Nursing,2026-02-19,Completed,Two-week wait,29
+R0030,P0024,A00479,Physiotherapy,2026-07-01,Delayed,Routine,72
+R0031,P0129,A00247,Community Nursing,2026-07-05,Open,Routine,16
+R0032,P0046,A00446,Dermatology,2026-07-04,Open,Urgent,38
+R0033,P0128,A00226,Mental Health,2026-02-13,Completed,Two-week wait,23
+R0034,P0109,A00127,Diagnostics,2026-06-26,Open,Routine,65
+R0035,P0039,A00093,Cardiology,2026-01-21,Completed,Urgent,26
+R0036,P0127,A00616,Mental Health,2026-05-18,Completed,Urgent,25
+R0037,P0241,A00391,Diagnostics,2026-02-22,Completed,Two-week wait,15
+R0038,P0024,A00239,Dermatology,2026-03-08,Completed,Routine,4
+R0039,P0096,A00349,Cardiology,2026-02-03,Completed,Urgent,5
+R0040,P0182,A00587,Dermatology,2026-05-16,Open,Two-week wait,3
+R0041,P0054,A00319,Cardiology,2026-06-29,Completed,Urgent,15
+R0042,P0062,A00328,Cardiology,2026-01-25,Delayed,Routine,31
+R0043,P0193,A00110,Mental Health,2026-03-22,Open,Routine,40
+R0044,P0028,A00225,Cardiology,2026-07-09,Completed,Routine,6
+R0045,P0209,A00682,Dermatology,2026-06-15,Open,Routine,18
+R0046,P0134,A00281,Community Nursing,2026-06-27,Completed,Urgent,17
+R0047,P0026,A00299,Physiotherapy,2026-02-05,Cancelled,Two-week wait,45
+R0048,P0038,A00157,Community Nursing,2026-02-13,Open,Urgent,31
+R0049,P0224,A00054,Community Nursing,2026-01-20,Delayed,Routine,23
+R0050,P0116,A00023,Mental Health,2026-06-17,Completed,Routine,13
+R0051,P0090,A00401,Community Nursing,2026-02-17,Open,Routine,27
+R0052,P0200,A00562,Dermatology,2026-06-27,Open,Urgent,9
+R0053,P0112,A00312,Diagnostics,2026-02-21,Completed,Routine,24
+R0054,P0080,A00495,Cardiology,2026-02-12,Delayed,Routine,28
+R0055,P0015,A00667,Diagnostics,2026-01-30,Completed,Routine,27
+R0056,P0057,A00152,Mental Health,2026-04-01,Cancelled,Routine,24
+R0057,P0218,A00058,Mental Health,2026-02-23,Completed,Routine,3
+R0058,P0055,A00121,Diagnostics,2026-03-11,Completed,Routine,6
+R0059,P0088,A00643,Physiotherapy,2026-06-03,Completed,Routine,14
+R0060,P0044,A00501,Cardiology,2026-01-20,Completed,Routine,14
+R0061,P0158,A00687,Mental Health,2026-04-19,Open,Urgent,51
+R0062,P0009,A00282,Dermatology,2026-06-08,Completed,Routine,5
+R0063,P0083,A00085,Community Nursing,2026-07-07,Completed,Urgent,9
+R0064,P0094,A00024,Diagnostics,2026-06-24,Completed,Routine,24
+R0065,P0189,A00097,Mental Health,2026-03-08,Open,Two-week wait,58
+R0066,P0007,A00306,Dermatology,2026-02-14,Open,Routine,71
+R0067,P0221,A00190,Physiotherapy,2026-06-24,Delayed,Routine,71
+R0068,P0227,A00543,Diagnostics,2026-01-11,Open,Routine,18
+R0069,P0099,A00213,Cardiology,2026-05-11,Delayed,Urgent,26
+R0070,P0157,A00006,Dermatology,2026-05-14,Completed,Routine,6
+R0071,P0171,A00589,Physiotherapy,2026-05-21,Completed,Routine,29
+R0072,P0240,A00036,Diagnostics,2026-05-13,Cancelled,Routine,72
+R0073,P0235,A00176,Community Nursing,2026-06-15,Cancelled,Routine,41
+R0074,P0102,A00048,Dermatology,2026-01-06,Delayed,Routine,59
+R0075,P0179,A00144,Dermatology,2026-03-03,Completed,Routine,13
+R0076,P0190,A00621,Community Nursing,2026-02-03,Completed,Routine,28
+R0077,P0138,A00046,Cardiology,2026-03-29,Open,Routine,30
+R0078,P0139,A00138,Diagnostics,2026-07-01,Completed,Routine,6
+R0079,P0159,A00638,Dermatology,2026-07-05,Open,Routine,23
+R0080,P0049,A00410,Dermatology,2026-04-15,Open,Routine,21
+R0081,P0025,A00549,Community Nursing,2026-01-30,Open,Routine,27
+R0082,P0204,A00382,Diagnostics,2026-03-12,Completed,Routine,15
+R0083,P0087,A00158,Mental Health,2026-03-03,Cancelled,Routine,34
+R0084,P0115,A00080,Physiotherapy,2026-05-14,Open,Routine,55
+R0085,P0117,A00068,Dermatology,2026-07-01,Completed,Urgent,26
+R0086,P0112,A00280,Cardiology,2026-03-12,Delayed,Routine,15
+R0087,P0008,A00387,Physiotherapy,2026-04-26,Completed,Urgent,5
+R0088,P0176,A00180,Dermatology,2026-03-27,Completed,Routine,27
+R0089,P0246,A00502,Community Nursing,2026-04-07,Completed,Routine,11
+R0090,P0088,A00565,Physiotherapy,2026-03-17,Completed,Routine,26
+R0091,P0243,A00399,Community Nursing,2026-06-20,Completed,Routine,27
+R0092,P0236,A00545,Mental Health,2026-06-02,Completed,Routine,6
+R0093,P0042,A00266,Community Nursing,2026-04-17,Completed,Routine,6
+R0094,P0017,A00147,Dermatology,2026-06-20,Completed,Routine,25
+R0095,P0022,A00655,Cardiology,2026-06-02,Completed,Routine,15
+R0096,P0128,A00469,Dermatology,2026-03-04,Completed,Urgent,18
+R0097,P0031,A00294,Diagnostics,2026-04-30,Cancelled,Two-week wait,32
+R0098,P0205,A00313,Dermatology,2026-07-20,Delayed,Routine,43
+R0099,P0039,A00093,Community Nursing,2026-01-21,Open,Routine,14
+R0100,P0170,A00170,Community Nursing,2026-06-23,Open,Routine,66
+R0101,P0200,A00011,Community Nursing,2026-06-16,Completed,Routine,17
+R0102,P0144,A00528,Diagnostics,2026-06-25,Cancelled,Routine,54
+R0103,P0164,A00015,Community Nursing,2026-07-04,Open,Routine,57
+R0104,P0121,A00548,Community Nursing,2026-04-20,Completed,Routine,28
+R0105,P0197,A00541,Diagnostics,2026-06-21,Completed,Routine,7
+R0106,P0017,A00691,Cardiology,2026-03-01,Delayed,Routine,20
+R0107,P0066,A00527,Mental Health,2026-03-07,Cancelled,Routine,24
+R0108,P0052,A00383,Community Nursing,2026-03-16,Completed,Routine,19
+R0109,P0055,A00121,Dermatology,2026-03-09,Completed,Routine,2
+R0110,P0068,A00647,Dermatology,2026-06-01,Completed,Urgent,22
+R0111,P0144,A00528,Diagnostics,2026-06-20,Delayed,Urgent,10
+R0112,P0011,A00365,Dermatology,2026-04-27,Completed,Routine,5
+R0113,P0157,A00006,Cardiology,2026-05-12,Delayed,Routine,4
+R0114,P0126,A00104,Physiotherapy,2026-04-29,Completed,Routine,30
+R0115,P0087,A00158,Mental Health,2026-03-04,Open,Routine,35
+R0116,P0172,A00232,Dermatology,2026-04-03,Completed,Routine,30
+R0117,P0034,A00187,Physiotherapy,2026-06-15,Delayed,Two-week wait,59
+R0118,P0158,A00166,Mental Health,2026-01-28,Completed,Routine,30
+R0119,P0167,A00204,Physiotherapy,2026-07-02,Open,Routine,56
+R0120,P0228,A00340,Cardiology,2026-03-03,Open,Two-week wait,37
+R0121,P0151,A00122,Mental Health,2026-04-30,Completed,Urgent,24
+R0122,P0031,A00131,Mental Health,2026-04-14,Completed,Routine,25
+R0123,P0243,A00399,Physiotherapy,2026-06-20,Open,Urgent,19
+R0124,P0001,A00160,Community Nursing,2026-04-18,Completed,Routine,23
+R0125,P0172,A00351,Community Nursing,2026-06-10,Cancelled,Routine,64
+R0126,P0209,A00297,Mental Health,2026-04-09,Completed,Routine,6
+R0127,P0196,A00524,Physiotherapy,2026-01-24,Open,Urgent,34
+R0128,P0083,A00683,Community Nursing,2026-04-28,Open,Urgent,16
+R0129,P0249,A00515,Diagnostics,2026-07-07,Open,Routine,22
+R0130,P0234,A00235,Physiotherapy,2026-07-09,Open,Routine,27
+R0131,P0023,A00150,Cardiology,2026-02-28,Open,Routine,9
+R0132,P0040,A00390,Community Nursing,2026-05-31,Completed,Routine,9
+R0133,P0247,A00228,Physiotherapy,2026-03-23,Completed,Routine,22
+R0134,P0108,A00053,Dermatology,2026-01-09,Open,Routine,47
+R0135,P0240,A00429,Physiotherapy,2026-05-20,Completed,Routine,2
+R0136,P0224,A00054,Cardiology,2026-01-24,Completed,Routine,10
+R0137,P0054,A00622,Dermatology,2026-04-16,Completed,Two-week wait,13
+R0138,P0163,A00343,Community Nursing,2026-01-26,Open,Routine,73
+R0139,P0039,A00134,Dermatology,2026-01-19,Completed,Urgent,20
+R0140,P0212,A00542,Community Nursing,2026-03-31,Completed,Routine,20
+R0141,P0070,A00394,Cardiology,2026-03-31,Delayed,Routine,18
+R0142,P0041,A00043,Community Nursing,2026-06-02,Cancelled,Urgent,27
+R0143,P0148,A00457,Diagnostics,2026-02-19,Open,Routine,41
+R0144,P0078,A00486,Cardiology,2026-05-25,Completed,Routine,8
+R0145,P0240,A00429,Diagnostics,2026-05-23,Completed,Two-week wait,30
+R0146,P0002,A00375,Physiotherapy,2026-05-25,Completed,Urgent,4
+R0147,P0080,A00495,Diagnostics,2026-02-13,Completed,Urgent,7
+R0148,P0244,A00614,Cardiology,2026-02-20,Completed,Routine,20
+R0149,P0185,A00063,Mental Health,2026-04-07,Open,Routine,71
+R0150,P0176,A00526,Diagnostics,2026-05-06,Open,Routine,52
+R0151,P0227,A00411,Cardiology,2026-04-30,Completed,Routine,20
+R0152,P0184,A00224,Diagnostics,2026-02-07,Completed,Routine,24
+R0153,P0106,A00538,Cardiology,2026-05-13,Completed,Routine,10
+R0154,P0123,A00566,Physiotherapy,2026-02-18,Open,Routine,40
+R0155,P0025,A00041,Dermatology,2026-02-17,Open,Urgent,37
+R0156,P0108,A00053,Cardiology,2026-01-12,Cancelled,Routine,3
+R0157,P0028,A00665,Dermatology,2026-05-03,Completed,Routine,24
+R0158,P0155,A00563,Mental Health,2026-07-08,Completed,Urgent,11
+R0159,P0025,A00333,Physiotherapy,2026-03-07,Completed,Urgent,9
+R0160,P0247,A00287,Physiotherapy,2026-05-14,Completed,Routine,29
+R0161,P0189,A00598,Community Nursing,2026-04-08,Completed,Routine,22
+R0162,P0226,A00264,Diagnostics,2026-03-05,Completed,Routine,16
+R0163,P0128,A00226,Diagnostics,2026-02-10,Completed,Routine,29
+R0164,P0245,A00405,Community Nursing,2026-06-14,Completed,Urgent,13
+R0165,P0057,A00152,Cardiology,2026-04-01,Open,Routine,25
+R0166,P0231,A00194,Community Nursing,2026-02-03,Completed,Routine,11
+R0167,P0196,A00022,Cardiology,2026-02-01,Open,Urgent,27
+R0168,P0003,A00072,Cardiology,2026-05-27,Open,Routine,54
+R0169,P0222,A00103,Community Nursing,2026-01-14,Completed,Urgent,2
+R0170,P0105,A00618,Physiotherapy,2026-07-07,Completed,Routine,2
+R0171,P0004,A00660,Physiotherapy,2026-05-19,Open,Routine,4
+R0172,P0105,A00010,Dermatology,2026-02-16,Completed,Urgent,4
+R0173,P0076,A00208,Diagnostics,2026-06-13,Completed,Urgent,28
+R0174,P0141,A00168,Cardiology,2026-01-29,Completed,Routine,19
+R0175,P0022,A00274,Physiotherapy,2026-05-31,Completed,Urgent,5
+R0176,P0174,A00558,Mental Health,2026-04-18,Open,Routine,31
+R0177,P0133,A00025,Cardiology,2026-06-16,Completed,Routine,11
+R0178,P0172,A00232,Community Nursing,2026-04-05,Completed,Urgent,5
+R0179,P0117,A00504,Cardiology,2026-04-08,Cancelled,Routine,39
+R0180,P0011,A00366,Physiotherapy,2026-06-05,Completed,Routine,4
+R0181,P0175,A00045,Mental Health,2026-05-21,Open,Routine,26
+R0182,P0045,A00696,Community Nursing,2026-05-11,Open,Routine,39
+R0183,P0098,A00357,Mental Health,2026-07-06,Completed,Routine,10
+R0184,P0082,A00079,Cardiology,2026-02-07,Delayed,Urgent,21
+R0185,P0062,A00328,Community Nursing,2026-01-24,Completed,Urgent,17
+R0186,P0005,A00069,Community Nursing,2026-03-12,Completed,Routine,4
+R0187,P0004,A00331,Mental Health,2026-07-02,Open,Routine,66
+R0188,P0138,A00435,Mental Health,2026-03-31,Completed,Routine,22
+R0189,P0200,A00342,Community Nursing,2026-04-10,Delayed,Urgent,52
+R0190,P0240,A00429,Diagnostics,2026-05-23,Completed,Routine,19
+R0191,P0045,A00236,Community Nursing,2026-04-18,Open,Routine,31
+R0192,P0208,A00090,Cardiology,2026-07-08,Completed,Two-week wait,2
+R0193,P0169,A00372,Cardiology,2026-02-24,Completed,Urgent,3
+R0194,P0085,A00358,Cardiology,2026-02-23,Delayed,Routine,21
+R0195,P0088,A00565,Cardiology,2026-03-18,Open,Routine,20
+R0196,P0055,A00121,Mental Health,2026-03-12,Completed,Urgent,24
+R0197,P0138,A00435,Physiotherapy,2026-03-30,Open,Routine,12
+R0198,P0148,A00489,Physiotherapy,2026-03-16,Delayed,Routine,21
+R0199,P0084,A00081,Diagnostics,2026-04-10,Open,Urgent,56
+R0200,P0152,A00154,Cardiology,2026-07-21,Completed,Urgent,24
+R0201,P0064,A00307,Dermatology,2026-06-29,Completed,Routine,22
+R0202,P0237,A00014,Physiotherapy,2026-01-30,Open,Urgent,7
+R0203,P0138,A00619,Physiotherapy,2026-05-23,Completed,Routine,15
+R0204,P0184,A00697,Dermatology,2026-02-12,Completed,Urgent,18
+R0205,P0075,A00314,Cardiology,2026-05-10,Open,Routine,14
+R0206,P0190,A00535,Cardiology,2026-02-03,Cancelled,Urgent,54
+R0207,P0064,A00634,Cardiology,2026-03-29,Open,Urgent,74
+R0208,P0239,A00620,Mental Health,2026-06-14,Delayed,Routine,54
+R0209,P0040,A00390,Dermatology,2026-05-29,Open,Routine,27
+R0210,P0095,A00277,Dermatology,2026-05-22,Open,Routine,45
+R0211,P0106,A00029,Diagnostics,2026-05-14,Completed,Routine,8
+R0212,P0151,A00612,Dermatology,2026-01-11,Completed,Routine,8
+R0213,P0061,A00654,Physiotherapy,2026-04-07,Open,Two-week wait,75
+R0214,P0138,A00046,Mental Health,2026-04-01,Cancelled,Routine,43
+R0215,P0142,A00096,Dermatology,2026-06-02,Open,Urgent,53
+R0216,P0169,A00513,Mental Health,2026-07-14,Completed,Urgent,6
+R0217,P0017,A00691,Community Nursing,2026-02-25,Completed,Routine,18
+R0218,P0152,A00154,Mental Health,2026-07-20,Completed,Routine,29
+R0219,P0228,A00039,Community Nursing,2026-05-27,Open,Routine,14
+R0220,P0147,A00238,Community Nursing,2026-01-25,Delayed,Routine,23
+R0221,P0146,A00514,Diagnostics,2026-07-07,Cancelled,Routine,46
+R0222,P0107,A00459,Dermatology,2026-05-15,Completed,Routine,15
+R0223,P0025,A00041,Mental Health,2026-02-17,Delayed,Routine,12
+R0224,P0038,A00157,Mental Health,2026-02-12,Completed,Routine,2
+R0225,P0017,A00147,Physiotherapy,2026-06-19,Completed,Routine,16
+R0226,P0040,A00322,Cardiology,2026-02-08,Delayed,Routine,49
+R0227,P0177,A00362,Community Nursing,2026-05-31,Open,Urgent,36
+R0228,P0194,A00485,Mental Health,2026-03-08,Completed,Routine,6
+R0229,P0109,A00127,Dermatology,2026-06-25,Completed,Urgent,14
+R0230,P0029,A00419,Cardiology,2026-06-16,Delayed,Routine,68
+R0231,P0063,A00640,Community Nursing,2026-01-23,Completed,Routine,16
+R0232,P0099,A00270,Community Nursing,2026-02-05,Open,Routine,34
+R0233,P0076,A00575,Physiotherapy,2026-04-11,Open,Routine,23
+R0234,P0144,A00584,Cardiology,2026-04-04,Delayed,Routine,62
+R0235,P0171,A00686,Mental Health,2026-04-08,Completed,Routine,30
+R0236,P0085,A00477,Community Nursing,2026-04-10,Open,Routine,53
+R0237,P0152,A00444,Physiotherapy,2026-01-22,Completed,Routine,21
+R0238,P0121,A00498,Mental Health,2026-03-16,Completed,Routine,16
+R0239,P0184,A00040,Mental Health,2026-04-06,Open,Routine,30
+R0240,P0062,A00328,Diagnostics,2026-01-27,Open,Urgent,10
+R0241,P0187,A00371,Cardiology,2026-06-26,Cancelled,Routine,5
+R0242,P0198,A00434,Cardiology,2026-05-11,Completed,Routine,4
+R0243,P0134,A00281,Community Nursing,2026-06-25,Open,Routine,56
+R0244,P0106,A00538,Dermatology,2026-05-12,Completed,Routine,3
+R0245,P0077,A00095,Dermatology,2026-02-22,Completed,Routine,13
+R0246,P0016,A00430,Community Nursing,2026-04-25,Completed,Urgent,24
+R0247,P0201,A00448,Diagnostics,2026-04-26,Delayed,Routine,4
+R0248,P0076,A00575,Community Nursing,2026-04-15,Open,Routine,21
+R0249,P0204,A00332,Community Nursing,2026-04-07,Cancelled,Urgent,43
+R0250,P0164,A00015,Cardiology,2026-07-01,Delayed,Routine,43

@@ -1,0 +1,720 @@
+case_id,patient_id,case_type,case_status,priority,event_no,timestamp,channel,event_type,note
+C00001,P0125,Referral query,Closed,Low,1,2026-01-02 11:30,mobile_app,message_received,Status changed
+C00001,P0125,Referral query,Closed,Low,2,2026-01-03 10:30,SMS,status_changed,Patient requested update
+C00001,P0125,Referral query,Closed,Low,3,2026-01-03 07:30,web_form,patient_reply,Reminder sent
+C00001,P0125,Referral query,Closed,Low,4,2026-01-03 23:30,mobile_app,message_received,Staff reviewed case
+C00001,P0125,Referral query,Closed,Low,5,2026-01-04 03:30,SMS,reminder_sent,Patient requested update
+C00001,P0125,Referral query,Closed,Low,6,2026-01-05 09:30,web_form,staff_note,Patient requested update
+C00002,P0187,Online consultation,Closed,High,1,2026-06-08 11:45,mobile_app,status_changed,Status changed
+C00002,P0187,Online consultation,Closed,High,2,2026-06-09 05:45,web_form,message_received,Patient requested update
+C00002,P0187,Online consultation,Closed,High,3,2026-06-10 09:45,web_form,status_changed,Escalated to coordinator
+C00002,P0187,Online consultation,Closed,High,4,2026-06-11 11:45,mobile_app,reminder_sent,Patient requested update
+C00002,P0187,Online consultation,Closed,High,5,2026-06-09 07:45,web_form,status_changed,Status changed
+C00003,P0179,Prescription support,Escalated,Medium,1,2026-06-04 10:45,web_form,status_changed,Reminder sent
+C00003,P0179,Prescription support,Escalated,Medium,2,2026-06-05 06:45,web_form,staff_note,Reminder sent
+C00004,P0107,Community visit query,Open,Medium,1,2026-05-30 16:45,SMS,reminder_sent,Staff reviewed case
+C00004,P0107,Community visit query,Open,Medium,2,2026-05-31 01:45,phone,staff_note,Escalated to coordinator
+C00004,P0107,Community visit query,Open,Medium,3,2026-05-31 20:45,web_form,escalation,Escalated to coordinator
+C00004,P0107,Community visit query,Open,Medium,4,2026-06-01 04:45,web_form,escalation,Further information required
+C00004,P0107,Community visit query,Open,Medium,5,2026-06-02 12:45,web_form,reminder_sent,Escalated to coordinator
+C00005,P0246,Prescription support,Closed,High,1,2026-06-27 14:30,mobile_app,message_received,Patient requested update
+C00005,P0246,Prescription support,Closed,High,2,2026-06-27 22:30,web_form,reminder_sent,Escalated to coordinator
+C00006,P0246,Referral query,Closed,Medium,1,2026-06-14 09:30,phone,message_received,Staff reviewed case
+C00006,P0246,Referral query,Closed,Medium,2,2026-06-14 23:30,SMS,message_received,Further information required
+C00006,P0246,Referral query,Closed,Medium,3,2026-06-15 05:30,SMS,patient_reply,Escalated to coordinator
+C00006,P0246,Referral query,Closed,Medium,4,2026-06-15 12:30,mobile_app,reminder_sent,Staff reviewed case
+C00007,P0099,Community visit query,Closed,Low,1,2026-05-08 11:45,SMS,escalation,Staff reviewed case
+C00007,P0099,Community visit query,Closed,Low,2,2026-05-09 11:45,SMS,status_changed,Escalated to coordinator
+C00007,P0099,Community visit query,Closed,Low,3,2026-05-08 19:45,phone,reminder_sent,Further information required
+C00007,P0099,Community visit query,Closed,Low,4,2026-05-09 14:45,web_form,reminder_sent,Reminder sent
+C00007,P0099,Community visit query,Closed,Low,5,2026-05-09 11:45,phone,status_changed,Escalated to coordinator
+C00008,P0049,Appointment issue,Closed,Low,1,2026-02-21 17:15,web_form,patient_reply,Patient requested update
+C00008,P0049,Appointment issue,Closed,Low,2,2026-02-21 22:15,SMS,escalation,Patient requested update
+C00009,P0041,Referral query,Open,Low,1,2026-03-30 08:15,mobile_app,escalation,Status changed
+C00009,P0041,Referral query,Open,Low,2,2026-03-30 17:15,phone,reminder_sent,Status changed
+C00009,P0041,Referral query,Open,Low,3,2026-03-31 20:15,web_form,reminder_sent,Escalated to coordinator
+C00009,P0041,Referral query,Open,Low,4,2026-04-01 05:15,web_form,staff_note,Reminder sent
+C00009,P0041,Referral query,Open,Low,5,2026-04-02 00:15,phone,patient_reply,Patient requested update
+C00010,P0098,Prescription support,Escalated,Medium,1,2026-01-27 14:00,SMS,message_received,Escalated to coordinator
+C00010,P0098,Prescription support,Escalated,Medium,2,2026-01-28 09:00,phone,message_received,Status changed
+C00010,P0098,Prescription support,Escalated,Medium,3,2026-01-28 10:00,phone,staff_note,Escalated to coordinator
+C00010,P0098,Prescription support,Escalated,Medium,4,2026-01-28 20:00,phone,message_received,Staff reviewed case
+C00010,P0098,Prescription support,Escalated,Medium,5,2026-01-29 02:00,phone,status_changed,Further information required
+C00010,P0098,Prescription support,Escalated,Medium,6,2026-02-01 04:00,phone,escalation,Status changed
+C00011,P0169,Online consultation,Closed,Medium,1,2026-05-22 16:15,web_form,escalation,Staff reviewed case
+C00011,P0169,Online consultation,Closed,Medium,2,2026-05-23 03:15,phone,reminder_sent,Further information required
+C00011,P0169,Online consultation,Closed,Medium,3,2026-05-23 18:15,web_form,staff_note,Patient requested update
+C00012,P0057,Appointment issue,Open,Medium,1,2026-03-16 11:00,web_form,reminder_sent,Further information required
+C00012,P0057,Appointment issue,Open,Medium,2,2026-03-17 06:00,mobile_app,status_changed,Status changed
+C00012,P0057,Appointment issue,Open,Medium,3,2026-03-18 09:00,SMS,message_received,Reminder sent
+C00012,P0057,Appointment issue,Open,Medium,4,2026-03-19 05:00,phone,staff_note,Patient requested update
+C00012,P0057,Appointment issue,Open,Medium,5,2026-03-17 23:00,mobile_app,reminder_sent,Reminder sent
+C00012,P0057,Appointment issue,Open,Medium,6,2026-03-21 06:00,SMS,patient_reply,Status changed
+C00013,P0036,Appointment issue,Open,Medium,1,2026-02-03 10:00,web_form,staff_note,Escalated to coordinator
+C00013,P0036,Appointment issue,Open,Medium,2,2026-02-03 15:00,phone,status_changed,Patient requested update
+C00014,P0208,Community visit query,Escalated,High,1,2026-03-31 11:30,phone,status_changed,Escalated to coordinator
+C00014,P0208,Community visit query,Escalated,High,2,2026-04-01 08:30,SMS,message_received,Patient requested update
+C00014,P0208,Community visit query,Escalated,High,3,2026-04-01 07:30,mobile_app,reminder_sent,Staff reviewed case
+C00014,P0208,Community visit query,Escalated,High,4,2026-04-01 20:30,SMS,escalation,Patient requested update
+C00014,P0208,Community visit query,Escalated,High,5,2026-04-04 03:30,web_form,message_received,Status changed
+C00014,P0208,Community visit query,Escalated,High,6,2026-04-01 17:30,web_form,status_changed,Reminder sent
+C00015,P0200,Prescription support,Escalated,Medium,1,2026-05-28 10:30,web_form,status_changed,Status changed
+C00015,P0200,Prescription support,Escalated,Medium,2,2026-05-28 22:30,phone,message_received,Further information required
+C00016,P0022,Prescription support,Open,Medium,1,2026-01-24 17:00,mobile_app,escalation,Reminder sent
+C00016,P0022,Prescription support,Open,Medium,2,2026-01-25 01:00,mobile_app,status_changed,Reminder sent
+C00016,P0022,Prescription support,Open,Medium,3,2026-01-25 07:00,SMS,staff_note,Status changed
+C00017,P0030,Community visit query,Closed,Low,1,2026-04-14 09:15,mobile_app,patient_reply,Escalated to coordinator
+C00017,P0030,Community visit query,Closed,Low,2,2026-04-14 14:15,SMS,status_changed,Escalated to coordinator
+C00017,P0030,Community visit query,Closed,Low,3,2026-04-15 13:15,SMS,status_changed,Reminder sent
+C00018,P0147,Referral query,Closed,Low,1,2026-04-08 13:15,phone,staff_note,Escalated to coordinator
+C00018,P0147,Referral query,Closed,Low,2,2026-04-09 02:15,mobile_app,status_changed,Staff reviewed case
+C00018,P0147,Referral query,Closed,Low,3,2026-04-09 07:15,mobile_app,message_received,Staff reviewed case
+C00018,P0147,Referral query,Closed,Low,4,2026-04-09 01:15,SMS,escalation,Further information required
+C00018,P0147,Referral query,Closed,Low,5,2026-04-09 21:15,web_form,message_received,Further information required
+C00018,P0147,Referral query,Closed,Low,6,2026-04-11 11:15,phone,status_changed,Further information required
+C00019,P0050,Referral query,Open,High,1,2026-04-08 09:00,web_form,status_changed,Escalated to coordinator
+C00019,P0050,Referral query,Open,High,2,2026-04-09 07:00,SMS,message_received,Patient requested update
+C00019,P0050,Referral query,Open,High,3,2026-04-09 07:00,SMS,message_received,Reminder sent
+C00020,P0084,Prescription support,Closed,Low,1,2026-02-03 11:00,phone,message_received,Reminder sent
+C00020,P0084,Prescription support,Closed,Low,2,2026-02-04 06:00,mobile_app,staff_note,Patient requested update
+C00020,P0084,Prescription support,Closed,Low,3,2026-02-04 17:00,phone,staff_note,Reminder sent
+C00020,P0084,Prescription support,Closed,Low,4,2026-02-06 02:00,SMS,reminder_sent,Patient requested update
+C00021,P0111,Referral query,Open,Low,1,2026-04-16 11:15,mobile_app,reminder_sent,Staff reviewed case
+C00021,P0111,Referral query,Open,Low,2,2026-04-16 23:15,phone,escalation,Escalated to coordinator
+C00021,P0111,Referral query,Open,Low,3,2026-04-18 11:15,mobile_app,status_changed,Escalated to coordinator
+C00022,P0158,Appointment issue,Closed,Medium,1,2026-05-25 15:30,mobile_app,reminder_sent,Status changed
+C00022,P0158,Appointment issue,Closed,Medium,2,2026-05-26 13:30,web_form,reminder_sent,Staff reviewed case
+C00022,P0158,Appointment issue,Closed,Medium,3,2026-05-27 01:30,phone,status_changed,Staff reviewed case
+C00022,P0158,Appointment issue,Closed,Medium,4,2026-05-28 00:30,mobile_app,status_changed,Staff reviewed case
+C00022,P0158,Appointment issue,Closed,Medium,5,2026-05-28 15:30,SMS,message_received,Patient requested update
+C00023,P0032,Appointment issue,Closed,Medium,1,2026-01-07 14:15,SMS,reminder_sent,Patient requested update
+C00023,P0032,Appointment issue,Closed,Medium,2,2026-01-08 09:15,phone,staff_note,Further information required
+C00024,P0115,Referral query,Closed,Medium,1,2026-06-01 08:00,SMS,message_received,Reminder sent
+C00024,P0115,Referral query,Closed,Medium,2,2026-06-02 04:00,mobile_app,staff_note,Status changed
+C00024,P0115,Referral query,Closed,Medium,3,2026-06-01 22:00,phone,message_received,Status changed
+C00024,P0115,Referral query,Closed,Medium,4,2026-06-02 17:00,web_form,message_received,Patient requested update
+C00025,P0126,Online consultation,Closed,Medium,1,2026-02-14 09:15,SMS,status_changed,Staff reviewed case
+C00025,P0126,Online consultation,Closed,Medium,2,2026-02-15 06:15,web_form,staff_note,Status changed
+C00026,P0031,Prescription support,Closed,Medium,1,2026-06-21 11:45,web_form,staff_note,Status changed
+C00026,P0031,Prescription support,Closed,Medium,2,2026-06-22 04:45,phone,message_received,Staff reviewed case
+C00026,P0031,Prescription support,Closed,Medium,3,2026-06-23 07:45,mobile_app,patient_reply,Reminder sent
+C00027,P0015,Community visit query,Closed,Medium,1,2026-04-19 09:30,mobile_app,message_received,Patient requested update
+C00027,P0015,Community visit query,Closed,Medium,2,2026-04-19 14:30,SMS,patient_reply,Status changed
+C00027,P0015,Community visit query,Closed,Medium,3,2026-04-20 21:30,mobile_app,reminder_sent,Patient requested update
+C00027,P0015,Community visit query,Closed,Medium,4,2026-04-19 21:30,web_form,patient_reply,Reminder sent
+C00028,P0194,Appointment issue,Open,Medium,1,2026-03-22 11:00,mobile_app,reminder_sent,Further information required
+C00028,P0194,Appointment issue,Open,Medium,2,2026-03-23 10:00,mobile_app,patient_reply,Staff reviewed case
+C00028,P0194,Appointment issue,Open,Medium,3,2026-03-24 11:00,SMS,staff_note,Further information required
+C00028,P0194,Appointment issue,Open,Medium,4,2026-03-24 23:00,SMS,escalation,Reminder sent
+C00029,P0209,Appointment issue,Escalated,Low,1,2026-05-23 12:00,mobile_app,status_changed,Reminder sent
+C00029,P0209,Appointment issue,Escalated,Low,2,2026-05-24 07:00,web_form,message_received,Status changed
+C00029,P0209,Appointment issue,Escalated,Low,3,2026-05-25 02:00,web_form,status_changed,Reminder sent
+C00029,P0209,Appointment issue,Escalated,Low,4,2026-05-24 15:00,web_form,staff_note,Reminder sent
+C00029,P0209,Appointment issue,Escalated,Low,5,2026-05-25 04:00,web_form,patient_reply,Further information required
+C00030,P0018,Appointment issue,Closed,Medium,1,2026-06-19 10:00,mobile_app,patient_reply,Status changed
+C00030,P0018,Appointment issue,Closed,Medium,2,2026-06-20 07:00,phone,message_received,Patient requested update
+C00030,P0018,Appointment issue,Closed,Medium,3,2026-06-20 20:00,mobile_app,status_changed,Escalated to coordinator
+C00031,P0025,Referral query,Closed,Low,1,2026-06-25 17:45,mobile_app,staff_note,Patient requested update
+C00031,P0025,Referral query,Closed,Low,2,2026-06-26 14:45,web_form,escalation,Further information required
+C00031,P0025,Referral query,Closed,Low,3,2026-06-26 01:45,mobile_app,patient_reply,Status changed
+C00032,P0116,Appointment issue,Closed,Medium,1,2026-05-27 15:30,phone,message_received,Patient requested update
+C00032,P0116,Appointment issue,Closed,Medium,2,2026-05-28 03:30,mobile_app,staff_note,Status changed
+C00032,P0116,Appointment issue,Closed,Medium,3,2026-05-28 19:30,SMS,escalation,Patient requested update
+C00032,P0116,Appointment issue,Closed,Medium,4,2026-05-28 18:30,phone,staff_note,Further information required
+C00032,P0116,Appointment issue,Closed,Medium,5,2026-05-28 15:30,web_form,patient_reply,Status changed
+C00033,P0131,Online consultation,Escalated,Medium,1,2026-06-03 14:15,SMS,escalation,Escalated to coordinator
+C00033,P0131,Online consultation,Escalated,Medium,2,2026-06-03 19:15,web_form,message_received,Further information required
+C00033,P0131,Online consultation,Escalated,Medium,3,2026-06-04 20:15,phone,escalation,Patient requested update
+C00033,P0131,Online consultation,Escalated,Medium,4,2026-06-05 02:15,mobile_app,patient_reply,Status changed
+C00033,P0131,Online consultation,Escalated,Medium,5,2026-06-04 18:15,web_form,staff_note,Patient requested update
+C00034,P0125,Online consultation,Closed,Low,1,2026-04-07 13:00,SMS,status_changed,Staff reviewed case
+C00034,P0125,Online consultation,Closed,Low,2,2026-04-08 13:00,mobile_app,patient_reply,Status changed
+C00034,P0125,Online consultation,Closed,Low,3,2026-04-09 13:00,web_form,patient_reply,Status changed
+C00034,P0125,Online consultation,Closed,Low,4,2026-04-09 13:00,phone,escalation,Staff reviewed case
+C00034,P0125,Online consultation,Closed,Low,5,2026-04-11 09:00,SMS,message_received,Staff reviewed case
+C00035,P0003,Online consultation,Closed,Medium,1,2026-01-27 14:15,phone,escalation,Status changed
+C00035,P0003,Online consultation,Closed,Medium,2,2026-01-28 02:15,phone,message_received,Further information required
+C00035,P0003,Online consultation,Closed,Medium,3,2026-01-29 10:15,phone,reminder_sent,Further information required
+C00036,P0011,Online consultation,Closed,High,1,2026-04-12 15:15,mobile_app,staff_note,Patient requested update
+C00036,P0011,Online consultation,Closed,High,2,2026-04-13 14:15,mobile_app,message_received,Staff reviewed case
+C00036,P0011,Online consultation,Closed,High,3,2026-04-13 03:15,phone,message_received,Further information required
+C00036,P0011,Online consultation,Closed,High,4,2026-04-14 00:15,web_form,escalation,Further information required
+C00036,P0011,Online consultation,Closed,High,5,2026-04-16 15:15,phone,status_changed,Escalated to coordinator
+C00036,P0011,Online consultation,Closed,High,6,2026-04-16 04:15,mobile_app,status_changed,Reminder sent
+C00037,P0048,Community visit query,Closed,Medium,1,2026-03-07 13:00,mobile_app,status_changed,Staff reviewed case
+C00037,P0048,Community visit query,Closed,Medium,2,2026-03-08 01:00,web_form,staff_note,Reminder sent
+C00037,P0048,Community visit query,Closed,Medium,3,2026-03-08 13:00,mobile_app,patient_reply,Patient requested update
+C00037,P0048,Community visit query,Closed,Medium,4,2026-03-09 16:00,web_form,escalation,Patient requested update
+C00037,P0048,Community visit query,Closed,Medium,5,2026-03-09 05:00,web_form,reminder_sent,Patient requested update
+C00038,P0194,Referral query,Closed,Medium,1,2026-05-13 10:30,mobile_app,patient_reply,Further information required
+C00038,P0194,Referral query,Closed,Medium,2,2026-05-13 14:30,SMS,staff_note,Further information required
+C00038,P0194,Referral query,Closed,Medium,3,2026-05-14 02:30,mobile_app,reminder_sent,Patient requested update
+C00038,P0194,Referral query,Closed,Medium,4,2026-05-15 16:30,web_form,staff_note,Further information required
+C00038,P0194,Referral query,Closed,Medium,5,2026-05-14 14:30,phone,reminder_sent,Further information required
+C00038,P0194,Referral query,Closed,Medium,6,2026-05-15 07:30,SMS,escalation,Status changed
+C00039,P0159,Community visit query,Closed,Low,1,2026-05-29 14:45,SMS,patient_reply,Staff reviewed case
+C00039,P0159,Community visit query,Closed,Low,2,2026-05-29 20:45,web_form,reminder_sent,Further information required
+C00039,P0159,Community visit query,Closed,Low,3,2026-05-30 14:45,web_form,escalation,Patient requested update
+C00039,P0159,Community visit query,Closed,Low,4,2026-05-30 11:45,mobile_app,patient_reply,Reminder sent
+C00040,P0093,Community visit query,Closed,Low,1,2026-04-08 08:30,SMS,message_received,Status changed
+C00040,P0093,Community visit query,Closed,Low,2,2026-04-08 13:30,phone,patient_reply,Further information required
+C00041,P0064,Referral query,Escalated,High,1,2026-05-12 17:30,mobile_app,staff_note,Status changed
+C00041,P0064,Referral query,Escalated,High,2,2026-05-12 21:30,mobile_app,message_received,Further information required
+C00041,P0064,Referral query,Escalated,High,3,2026-05-14 17:30,web_form,status_changed,Staff reviewed case
+C00041,P0064,Referral query,Escalated,High,4,2026-05-15 05:30,web_form,status_changed,Patient requested update
+C00042,P0202,Prescription support,Open,Medium,1,2026-05-23 17:45,SMS,message_received,Staff reviewed case
+C00042,P0202,Prescription support,Open,Medium,2,2026-05-24 10:45,web_form,status_changed,Patient requested update
+C00042,P0202,Prescription support,Open,Medium,3,2026-05-24 19:45,web_form,staff_note,Staff reviewed case
+C00042,P0202,Prescription support,Open,Medium,4,2026-05-26 02:45,SMS,reminder_sent,Further information required
+C00042,P0202,Prescription support,Open,Medium,5,2026-05-24 09:45,SMS,reminder_sent,Staff reviewed case
+C00043,P0008,Prescription support,Open,Low,1,2026-04-05 12:45,phone,staff_note,Staff reviewed case
+C00043,P0008,Prescription support,Open,Low,2,2026-04-06 01:45,mobile_app,message_received,Status changed
+C00043,P0008,Prescription support,Open,Low,3,2026-04-07 12:45,web_form,patient_reply,Further information required
+C00043,P0008,Prescription support,Open,Low,4,2026-04-07 09:45,phone,message_received,Patient requested update
+C00043,P0008,Prescription support,Open,Low,5,2026-04-08 08:45,phone,status_changed,Patient requested update
+C00044,P0110,Community visit query,Open,Medium,1,2026-05-03 15:30,web_form,patient_reply,Patient requested update
+C00044,P0110,Community visit query,Open,Medium,2,2026-05-04 07:30,mobile_app,message_received,Patient requested update
+C00044,P0110,Community visit query,Open,Medium,3,2026-05-04 09:30,web_form,escalation,Patient requested update
+C00044,P0110,Community visit query,Open,Medium,4,2026-05-04 09:30,web_form,patient_reply,Staff reviewed case
+C00044,P0110,Community visit query,Open,Medium,5,2026-05-07 03:30,SMS,message_received,Patient requested update
+C00045,P0102,Online consultation,Closed,Low,1,2026-02-20 09:15,web_form,staff_note,Patient requested update
+C00045,P0102,Online consultation,Closed,Low,2,2026-02-20 21:15,SMS,status_changed,Escalated to coordinator
+C00045,P0102,Online consultation,Closed,Low,3,2026-02-21 19:15,web_form,status_changed,Escalated to coordinator
+C00045,P0102,Online consultation,Closed,Low,4,2026-02-22 12:15,mobile_app,status_changed,Escalated to coordinator
+C00045,P0102,Online consultation,Closed,Low,5,2026-02-21 13:15,phone,message_received,Reminder sent
+C00045,P0102,Online consultation,Closed,Low,6,2026-02-24 13:15,web_form,status_changed,Escalated to coordinator
+C00046,P0187,Referral query,Open,Medium,1,2026-05-22 13:15,phone,reminder_sent,Reminder sent
+C00046,P0187,Referral query,Open,Medium,2,2026-05-22 20:15,phone,patient_reply,Staff reviewed case
+C00046,P0187,Referral query,Open,Medium,3,2026-05-23 13:15,web_form,reminder_sent,Patient requested update
+C00046,P0187,Referral query,Open,Medium,4,2026-05-23 04:15,SMS,reminder_sent,Staff reviewed case
+C00047,P0223,Referral query,Closed,Medium,1,2026-01-29 10:15,web_form,patient_reply,Further information required
+C00047,P0223,Referral query,Closed,Medium,2,2026-01-30 05:15,mobile_app,staff_note,Status changed
+C00047,P0223,Referral query,Closed,Medium,3,2026-01-30 18:15,phone,status_changed,Escalated to coordinator
+C00048,P0126,Referral query,Closed,Low,1,2026-02-19 16:45,SMS,reminder_sent,Escalated to coordinator
+C00048,P0126,Referral query,Closed,Low,2,2026-02-19 20:45,mobile_app,message_received,Further information required
+C00048,P0126,Referral query,Closed,Low,3,2026-02-21 00:45,phone,message_received,Staff reviewed case
+C00049,P0156,Referral query,Closed,Low,1,2026-05-20 16:15,phone,reminder_sent,Reminder sent
+C00049,P0156,Referral query,Closed,Low,2,2026-05-21 05:15,mobile_app,message_received,Escalated to coordinator
+C00049,P0156,Referral query,Closed,Low,3,2026-05-22 16:15,mobile_app,patient_reply,Patient requested update
+C00049,P0156,Referral query,Closed,Low,4,2026-05-22 16:15,SMS,staff_note,Further information required
+C00050,P0089,Referral query,Open,Medium,1,2026-03-07 12:30,SMS,message_received,Further information required
+C00050,P0089,Referral query,Open,Medium,2,2026-03-07 22:30,web_form,escalation,Patient requested update
+C00050,P0089,Referral query,Open,Medium,3,2026-03-09 02:30,phone,staff_note,Escalated to coordinator
+C00050,P0089,Referral query,Open,Medium,4,2026-03-10 03:30,mobile_app,message_received,Escalated to coordinator
+C00051,P0138,Appointment issue,Closed,High,1,2026-06-19 12:45,SMS,patient_reply,Further information required
+C00051,P0138,Appointment issue,Closed,High,2,2026-06-20 08:45,phone,escalation,Further information required
+C00051,P0138,Appointment issue,Closed,High,3,2026-06-19 22:45,web_form,reminder_sent,Status changed
+C00051,P0138,Appointment issue,Closed,High,4,2026-06-22 06:45,phone,staff_note,Patient requested update
+C00051,P0138,Appointment issue,Closed,High,5,2026-06-21 12:45,SMS,escalation,Reminder sent
+C00051,P0138,Appointment issue,Closed,High,6,2026-06-22 00:45,SMS,status_changed,Patient requested update
+C00052,P0192,Community visit query,Closed,Low,1,2026-02-14 12:15,phone,patient_reply,Status changed
+C00052,P0192,Community visit query,Closed,Low,2,2026-02-14 21:15,phone,status_changed,Further information required
+C00052,P0192,Community visit query,Closed,Low,3,2026-02-15 02:15,phone,message_received,Escalated to coordinator
+C00053,P0242,Community visit query,Closed,Medium,1,2026-02-14 16:00,phone,status_changed,Reminder sent
+C00053,P0242,Community visit query,Closed,Medium,2,2026-02-14 23:00,mobile_app,message_received,Patient requested update
+C00053,P0242,Community visit query,Closed,Medium,3,2026-02-15 10:00,phone,status_changed,Patient requested update
+C00053,P0242,Community visit query,Closed,Medium,4,2026-02-15 04:00,mobile_app,escalation,Further information required
+C00053,P0242,Community visit query,Closed,Medium,5,2026-02-17 08:00,SMS,staff_note,Status changed
+C00053,P0242,Community visit query,Closed,Medium,6,2026-02-16 03:00,mobile_app,message_received,Further information required
+C00054,P0184,Community visit query,Closed,Low,1,2026-05-21 09:30,SMS,message_received,Staff reviewed case
+C00054,P0184,Community visit query,Closed,Low,2,2026-05-21 14:30,phone,patient_reply,Staff reviewed case
+C00054,P0184,Community visit query,Closed,Low,3,2026-05-22 13:30,phone,escalation,Patient requested update
+C00055,P0071,Prescription support,Open,Medium,1,2026-04-18 16:15,web_form,staff_note,Further information required
+C00055,P0071,Prescription support,Open,Medium,2,2026-04-19 06:15,mobile_app,message_received,Patient requested update
+C00055,P0071,Prescription support,Open,Medium,3,2026-04-19 12:15,mobile_app,staff_note,Status changed
+C00056,P0242,Appointment issue,Open,Medium,1,2026-04-23 09:30,SMS,staff_note,Escalated to coordinator
+C00056,P0242,Appointment issue,Open,Medium,2,2026-04-24 01:30,SMS,reminder_sent,Patient requested update
+C00057,P0077,Appointment issue,Closed,Low,1,2026-01-24 11:30,web_form,message_received,Status changed
+C00057,P0077,Appointment issue,Closed,Low,2,2026-01-25 10:30,web_form,patient_reply,Status changed
+C00058,P0195,Community visit query,Escalated,Medium,1,2026-04-18 16:15,phone,staff_note,Further information required
+C00058,P0195,Community visit query,Escalated,Medium,2,2026-04-19 14:15,SMS,status_changed,Status changed
+C00058,P0195,Community visit query,Escalated,Medium,3,2026-04-20 14:15,SMS,message_received,Further information required
+C00058,P0195,Community visit query,Escalated,Medium,4,2026-04-20 01:15,SMS,patient_reply,Further information required
+C00059,P0136,Appointment issue,Open,High,1,2026-06-24 15:00,web_form,patient_reply,Status changed
+C00059,P0136,Appointment issue,Open,High,2,2026-06-25 00:00,web_form,staff_note,Patient requested update
+C00059,P0136,Appointment issue,Open,High,3,2026-06-26 11:00,SMS,staff_note,Patient requested update
+C00059,P0136,Appointment issue,Open,High,4,2026-06-27 12:00,phone,status_changed,Patient requested update
+C00060,P0117,Community visit query,Closed,Medium,1,2026-01-04 12:00,web_form,status_changed,Patient requested update
+C00060,P0117,Community visit query,Closed,Medium,2,2026-01-05 06:00,web_form,reminder_sent,Further information required
+C00060,P0117,Community visit query,Closed,Medium,3,2026-01-05 16:00,mobile_app,staff_note,Status changed
+C00060,P0117,Community visit query,Closed,Medium,4,2026-01-06 18:00,web_form,escalation,Patient requested update
+C00060,P0117,Community visit query,Closed,Medium,5,2026-01-05 20:00,SMS,reminder_sent,Status changed
+C00060,P0117,Community visit query,Closed,Medium,6,2026-01-09 07:00,phone,message_received,Patient requested update
+C00061,P0038,Referral query,Closed,Low,1,2026-06-05 17:45,web_form,status_changed,Reminder sent
+C00061,P0038,Referral query,Closed,Low,2,2026-06-06 01:45,SMS,reminder_sent,Further information required
+C00061,P0038,Referral query,Closed,Low,3,2026-06-07 13:45,mobile_app,staff_note,Patient requested update
+C00062,P0027,Referral query,Closed,High,1,2026-04-06 15:00,phone,message_received,Further information required
+C00062,P0027,Referral query,Closed,High,2,2026-04-06 23:00,phone,reminder_sent,Status changed
+C00062,P0027,Referral query,Closed,High,3,2026-04-06 23:00,mobile_app,escalation,Patient requested update
+C00062,P0027,Referral query,Closed,High,4,2026-04-07 09:00,SMS,status_changed,Escalated to coordinator
+C00063,P0044,Appointment issue,Open,Low,1,2026-03-13 15:15,web_form,escalation,Staff reviewed case
+C00063,P0044,Appointment issue,Open,Low,2,2026-03-13 19:15,mobile_app,message_received,Status changed
+C00063,P0044,Appointment issue,Open,Low,3,2026-03-15 07:15,phone,status_changed,Escalated to coordinator
+C00063,P0044,Appointment issue,Open,Low,4,2026-03-15 03:15,SMS,status_changed,Patient requested update
+C00063,P0044,Appointment issue,Open,Low,5,2026-03-14 23:15,SMS,message_received,Status changed
+C00063,P0044,Appointment issue,Open,Low,6,2026-03-18 00:15,web_form,message_received,Status changed
+C00064,P0165,Appointment issue,Closed,Low,1,2026-01-30 17:30,phone,staff_note,Patient requested update
+C00064,P0165,Appointment issue,Closed,Low,2,2026-01-30 23:30,web_form,status_changed,Status changed
+C00065,P0059,Appointment issue,Escalated,Low,1,2026-05-26 10:15,SMS,message_received,Status changed
+C00065,P0059,Appointment issue,Escalated,Low,2,2026-05-27 08:15,web_form,escalation,Patient requested update
+C00066,P0225,Appointment issue,Closed,Medium,1,2026-06-28 12:15,SMS,staff_note,Further information required
+C00066,P0225,Appointment issue,Closed,Medium,2,2026-06-29 09:15,phone,staff_note,Staff reviewed case
+C00066,P0225,Appointment issue,Closed,Medium,3,2026-06-29 04:15,web_form,reminder_sent,Status changed
+C00067,P0204,Prescription support,Open,High,1,2026-02-21 12:00,mobile_app,reminder_sent,Staff reviewed case
+C00067,P0204,Prescription support,Open,High,2,2026-02-21 17:00,phone,reminder_sent,Further information required
+C00067,P0204,Prescription support,Open,High,3,2026-02-23 10:00,SMS,status_changed,Escalated to coordinator
+C00068,P0249,Community visit query,Open,Medium,1,2026-05-15 11:30,mobile_app,staff_note,Staff reviewed case
+C00068,P0249,Community visit query,Open,Medium,2,2026-05-16 08:30,SMS,message_received,Escalated to coordinator
+C00068,P0249,Community visit query,Open,Medium,3,2026-05-16 21:30,SMS,status_changed,Further information required
+C00069,P0229,Online consultation,Closed,Medium,1,2026-05-21 12:15,SMS,escalation,Staff reviewed case
+C00069,P0229,Online consultation,Closed,Medium,2,2026-05-22 04:15,phone,patient_reply,Patient requested update
+C00069,P0229,Online consultation,Closed,Medium,3,2026-05-22 16:15,web_form,message_received,Status changed
+C00069,P0229,Online consultation,Closed,Medium,4,2026-05-23 18:15,web_form,escalation,Patient requested update
+C00070,P0021,Referral query,Closed,Medium,1,2026-02-10 11:15,mobile_app,patient_reply,Staff reviewed case
+C00070,P0021,Referral query,Closed,Medium,2,2026-02-11 01:15,mobile_app,message_received,Status changed
+C00071,P0027,Appointment issue,Escalated,Medium,1,2026-01-22 09:45,mobile_app,patient_reply,Escalated to coordinator
+C00071,P0027,Appointment issue,Escalated,Medium,2,2026-01-22 13:45,phone,reminder_sent,Staff reviewed case
+C00071,P0027,Appointment issue,Escalated,Medium,3,2026-01-23 21:45,SMS,message_received,Escalated to coordinator
+C00071,P0027,Appointment issue,Escalated,Medium,4,2026-01-23 12:45,phone,escalation,Patient requested update
+C00071,P0027,Appointment issue,Escalated,Medium,5,2026-01-25 01:45,web_form,status_changed,Staff reviewed case
+C00071,P0027,Appointment issue,Escalated,Medium,6,2026-01-24 21:45,mobile_app,escalation,Reminder sent
+C00072,P0113,Community visit query,Open,Medium,1,2026-04-02 08:00,mobile_app,message_received,Staff reviewed case
+C00072,P0113,Community visit query,Open,Medium,2,2026-04-02 15:00,web_form,status_changed,Escalated to coordinator
+C00072,P0113,Community visit query,Open,Medium,3,2026-04-03 02:00,web_form,escalation,Escalated to coordinator
+C00073,P0087,Community visit query,Closed,Medium,1,2026-03-14 08:45,phone,status_changed,Status changed
+C00073,P0087,Community visit query,Closed,Medium,2,2026-03-15 07:45,mobile_app,reminder_sent,Escalated to coordinator
+C00074,P0171,Referral query,Escalated,Medium,1,2026-01-03 14:30,web_form,escalation,Patient requested update
+C00074,P0171,Referral query,Escalated,Medium,2,2026-01-04 00:30,mobile_app,message_received,Staff reviewed case
+C00074,P0171,Referral query,Escalated,Medium,3,2026-01-04 20:30,phone,message_received,Reminder sent
+C00074,P0171,Referral query,Escalated,Medium,4,2026-01-05 17:30,mobile_app,patient_reply,Further information required
+C00074,P0171,Referral query,Escalated,Medium,5,2026-01-05 18:30,mobile_app,message_received,Further information required
+C00074,P0171,Referral query,Escalated,Medium,6,2026-01-06 07:30,mobile_app,status_changed,Escalated to coordinator
+C00075,P0246,Online consultation,Closed,High,1,2026-03-04 13:30,web_form,staff_note,Patient requested update
+C00075,P0246,Online consultation,Closed,High,2,2026-03-04 18:30,mobile_app,staff_note,Status changed
+C00075,P0246,Online consultation,Closed,High,3,2026-03-06 09:30,mobile_app,escalation,Patient requested update
+C00076,P0016,Online consultation,Closed,Low,1,2026-04-10 15:45,phone,staff_note,Further information required
+C00076,P0016,Online consultation,Closed,Low,2,2026-04-11 03:45,phone,escalation,Reminder sent
+C00076,P0016,Online consultation,Closed,Low,3,2026-04-11 11:45,web_form,reminder_sent,Further information required
+C00076,P0016,Online consultation,Closed,Low,4,2026-04-12 12:45,phone,message_received,Patient requested update
+C00077,P0086,Prescription support,Open,Medium,1,2026-02-25 10:30,SMS,status_changed,Status changed
+C00077,P0086,Prescription support,Open,Medium,2,2026-02-26 00:30,web_form,status_changed,Status changed
+C00078,P0048,Prescription support,Open,High,1,2026-02-26 11:30,mobile_app,message_received,Escalated to coordinator
+C00078,P0048,Prescription support,Open,High,2,2026-02-26 16:30,mobile_app,escalation,Status changed
+C00078,P0048,Prescription support,Open,High,3,2026-02-26 21:30,web_form,status_changed,Patient requested update
+C00078,P0048,Prescription support,Open,High,4,2026-03-01 11:30,SMS,patient_reply,Staff reviewed case
+C00079,P0023,Online consultation,Open,High,1,2026-02-26 10:00,SMS,reminder_sent,Further information required
+C00079,P0023,Online consultation,Open,High,2,2026-02-27 07:00,SMS,reminder_sent,Further information required
+C00079,P0023,Online consultation,Open,High,3,2026-02-27 04:00,mobile_app,status_changed,Further information required
+C00079,P0023,Online consultation,Open,High,4,2026-03-01 04:00,SMS,reminder_sent,Reminder sent
+C00080,P0108,Prescription support,Closed,Medium,1,2026-02-06 15:30,phone,message_received,Staff reviewed case
+C00080,P0108,Prescription support,Closed,Medium,2,2026-02-07 09:30,SMS,message_received,Escalated to coordinator
+C00080,P0108,Prescription support,Closed,Medium,3,2026-02-08 13:30,phone,message_received,Status changed
+C00080,P0108,Prescription support,Closed,Medium,4,2026-02-07 12:30,mobile_app,reminder_sent,Reminder sent
+C00081,P0049,Community visit query,Open,Low,1,2026-06-15 17:15,mobile_app,patient_reply,Further information required
+C00081,P0049,Community visit query,Open,Low,2,2026-06-16 12:15,mobile_app,escalation,Staff reviewed case
+C00082,P0129,Online consultation,Escalated,Medium,1,2026-03-27 16:00,SMS,escalation,Status changed
+C00082,P0129,Online consultation,Escalated,Medium,2,2026-03-28 01:00,mobile_app,staff_note,Further information required
+C00082,P0129,Online consultation,Escalated,Medium,3,2026-03-29 08:00,mobile_app,escalation,Patient requested update
+C00082,P0129,Online consultation,Escalated,Medium,4,2026-03-29 10:00,phone,staff_note,Further information required
+C00082,P0129,Online consultation,Escalated,Medium,5,2026-03-31 12:00,phone,message_received,Further information required
+C00082,P0129,Online consultation,Escalated,Medium,6,2026-03-31 00:00,phone,patient_reply,Further information required
+C00083,P0085,Referral query,Closed,Medium,1,2026-05-12 10:15,mobile_app,message_received,Reminder sent
+C00083,P0085,Referral query,Closed,Medium,2,2026-05-13 07:15,phone,patient_reply,Staff reviewed case
+C00083,P0085,Referral query,Closed,Medium,3,2026-05-14 04:15,phone,escalation,Reminder sent
+C00083,P0085,Referral query,Closed,Medium,4,2026-05-13 10:15,phone,message_received,Staff reviewed case
+C00083,P0085,Referral query,Closed,Medium,5,2026-05-13 10:15,web_form,reminder_sent,Status changed
+C00084,P0192,Prescription support,Open,Low,1,2026-04-18 13:15,mobile_app,status_changed,Patient requested update
+C00084,P0192,Prescription support,Open,Low,2,2026-04-19 13:15,phone,message_received,Staff reviewed case
+C00085,P0128,Prescription support,Open,High,1,2026-03-04 13:15,mobile_app,staff_note,Staff reviewed case
+C00085,P0128,Prescription support,Open,High,2,2026-03-04 18:15,SMS,reminder_sent,Status changed
+C00086,P0089,Community visit query,Open,High,1,2026-04-27 15:30,mobile_app,patient_reply,Further information required
+C00086,P0089,Community visit query,Open,High,2,2026-04-28 02:30,phone,message_received,Escalated to coordinator
+C00086,P0089,Community visit query,Open,High,3,2026-04-27 23:30,phone,patient_reply,Patient requested update
+C00086,P0089,Community visit query,Open,High,4,2026-04-29 18:30,mobile_app,staff_note,Staff reviewed case
+C00086,P0089,Community visit query,Open,High,5,2026-04-30 07:30,mobile_app,status_changed,Further information required
+C00087,P0068,Online consultation,Escalated,Low,1,2026-01-18 17:45,phone,patient_reply,Patient requested update
+C00087,P0068,Online consultation,Escalated,Low,2,2026-01-19 03:45,mobile_app,staff_note,Status changed
+C00087,P0068,Online consultation,Escalated,Low,3,2026-01-19 01:45,mobile_app,reminder_sent,Status changed
+C00087,P0068,Online consultation,Escalated,Low,4,2026-01-21 08:45,web_form,staff_note,Status changed
+C00087,P0068,Online consultation,Escalated,Low,5,2026-01-21 17:45,mobile_app,staff_note,Reminder sent
+C00088,P0206,Prescription support,Closed,Medium,1,2026-04-03 08:30,web_form,reminder_sent,Escalated to coordinator
+C00088,P0206,Prescription support,Closed,Medium,2,2026-04-03 13:30,SMS,staff_note,Status changed
+C00088,P0206,Prescription support,Closed,Medium,3,2026-04-04 04:30,web_form,patient_reply,Reminder sent
+C00088,P0206,Prescription support,Closed,Medium,4,2026-04-04 17:30,SMS,reminder_sent,Patient requested update
+C00088,P0206,Prescription support,Closed,Medium,5,2026-04-05 12:30,SMS,status_changed,Status changed
+C00088,P0206,Prescription support,Closed,Medium,6,2026-04-05 10:30,phone,status_changed,Status changed
+C00089,P0076,Online consultation,Open,Low,1,2026-02-25 14:15,web_form,reminder_sent,Escalated to coordinator
+C00089,P0076,Online consultation,Open,Low,2,2026-02-25 22:15,mobile_app,escalation,Further information required
+C00089,P0076,Online consultation,Open,Low,3,2026-02-27 06:15,mobile_app,patient_reply,Escalated to coordinator
+C00089,P0076,Online consultation,Open,Low,4,2026-02-27 23:15,mobile_app,escalation,Further information required
+C00090,P0233,Prescription support,Escalated,Low,1,2026-02-26 11:30,web_form,staff_note,Reminder sent
+C00090,P0233,Prescription support,Escalated,Low,2,2026-02-27 02:30,mobile_app,reminder_sent,Further information required
+C00090,P0233,Prescription support,Escalated,Low,3,2026-02-27 09:30,phone,status_changed,Staff reviewed case
+C00091,P0020,Prescription support,Closed,Medium,1,2026-04-04 16:45,web_form,escalation,Staff reviewed case
+C00091,P0020,Prescription support,Closed,Medium,2,2026-04-05 07:45,SMS,escalation,Status changed
+C00091,P0020,Prescription support,Closed,Medium,3,2026-04-06 12:45,web_form,staff_note,Staff reviewed case
+C00091,P0020,Prescription support,Closed,Medium,4,2026-04-06 22:45,SMS,patient_reply,Escalated to coordinator
+C00091,P0020,Prescription support,Closed,Medium,5,2026-04-06 16:45,web_form,status_changed,Staff reviewed case
+C00092,P0101,Referral query,Open,Medium,1,2026-04-09 17:45,phone,reminder_sent,Reminder sent
+C00092,P0101,Referral query,Open,Medium,2,2026-04-09 23:45,phone,reminder_sent,Staff reviewed case
+C00093,P0147,Referral query,Closed,Medium,1,2026-03-29 10:45,web_form,reminder_sent,Further information required
+C00093,P0147,Referral query,Closed,Medium,2,2026-03-30 02:45,SMS,reminder_sent,Status changed
+C00093,P0147,Referral query,Closed,Medium,3,2026-03-30 04:45,mobile_app,status_changed,Patient requested update
+C00093,P0147,Referral query,Closed,Medium,4,2026-03-31 16:45,web_form,status_changed,Reminder sent
+C00093,P0147,Referral query,Closed,Medium,5,2026-03-31 22:45,mobile_app,reminder_sent,Reminder sent
+C00093,P0147,Referral query,Closed,Medium,6,2026-04-01 18:45,mobile_app,reminder_sent,Patient requested update
+C00094,P0203,Referral query,Escalated,Low,1,2026-01-30 12:30,mobile_app,staff_note,Further information required
+C00094,P0203,Referral query,Escalated,Low,2,2026-01-31 05:30,phone,escalation,Status changed
+C00094,P0203,Referral query,Escalated,Low,3,2026-01-31 10:30,mobile_app,escalation,Patient requested update
+C00094,P0203,Referral query,Escalated,Low,4,2026-01-31 00:30,mobile_app,staff_note,Further information required
+C00095,P0021,Online consultation,Open,High,1,2026-01-24 16:30,phone,reminder_sent,Escalated to coordinator
+C00095,P0021,Online consultation,Open,High,2,2026-01-25 04:30,phone,staff_note,Further information required
+C00095,P0021,Online consultation,Open,High,3,2026-01-26 04:30,web_form,reminder_sent,Escalated to coordinator
+C00095,P0021,Online consultation,Open,High,4,2026-01-27 16:30,SMS,message_received,Patient requested update
+C00096,P0178,Referral query,Closed,Medium,1,2026-03-29 10:15,SMS,status_changed,Further information required
+C00096,P0178,Referral query,Closed,Medium,2,2026-03-30 03:15,SMS,escalation,Staff reviewed case
+C00096,P0178,Referral query,Closed,Medium,3,2026-03-30 20:15,phone,status_changed,Status changed
+C00096,P0178,Referral query,Closed,Medium,4,2026-03-29 22:15,mobile_app,reminder_sent,Patient requested update
+C00096,P0178,Referral query,Closed,Medium,5,2026-04-02 10:15,mobile_app,escalation,Escalated to coordinator
+C00097,P0017,Prescription support,Closed,Medium,1,2026-03-25 16:00,phone,staff_note,Escalated to coordinator
+C00097,P0017,Prescription support,Closed,Medium,2,2026-03-26 01:00,phone,message_received,Staff reviewed case
+C00098,P0031,Prescription support,Closed,Low,1,2026-02-28 17:00,mobile_app,staff_note,Reminder sent
+C00098,P0031,Prescription support,Closed,Low,2,2026-02-28 22:00,phone,message_received,Reminder sent
+C00098,P0031,Prescription support,Closed,Low,3,2026-03-02 01:00,web_form,reminder_sent,Escalated to coordinator
+C00099,P0154,Community visit query,Open,Low,1,2026-05-28 15:15,web_form,patient_reply,Staff reviewed case
+C00099,P0154,Community visit query,Open,Low,2,2026-05-29 01:15,phone,status_changed,Reminder sent
+C00099,P0154,Community visit query,Open,Low,3,2026-05-29 07:15,SMS,status_changed,Escalated to coordinator
+C00099,P0154,Community visit query,Open,Low,4,2026-05-31 12:15,phone,patient_reply,Further information required
+C00100,P0177,Appointment issue,Open,Medium,1,2026-02-27 10:15,mobile_app,patient_reply,Staff reviewed case
+C00100,P0177,Appointment issue,Open,Medium,2,2026-02-27 15:15,SMS,staff_note,Patient requested update
+C00100,P0177,Appointment issue,Open,Medium,3,2026-02-27 20:15,SMS,message_received,Further information required
+C00100,P0177,Appointment issue,Open,Medium,4,2026-02-28 13:15,SMS,patient_reply,Status changed
+C00100,P0177,Appointment issue,Open,Medium,5,2026-02-28 14:15,phone,status_changed,Status changed
+C00101,P0102,Community visit query,Open,Low,1,2026-06-15 16:15,phone,escalation,Patient requested update
+C00101,P0102,Community visit query,Open,Low,2,2026-06-16 11:15,SMS,escalation,Staff reviewed case
+C00101,P0102,Community visit query,Open,Low,3,2026-06-17 10:15,web_form,staff_note,Status changed
+C00101,P0102,Community visit query,Open,Low,4,2026-06-16 22:15,web_form,staff_note,Staff reviewed case
+C00101,P0102,Community visit query,Open,Low,5,2026-06-17 00:15,phone,status_changed,Reminder sent
+C00101,P0102,Community visit query,Open,Low,6,2026-06-17 08:15,phone,status_changed,Escalated to coordinator
+C00102,P0075,Online consultation,Open,High,1,2026-03-30 16:15,web_form,staff_note,Patient requested update
+C00102,P0075,Online consultation,Open,High,2,2026-03-31 08:15,phone,patient_reply,Staff reviewed case
+C00102,P0075,Online consultation,Open,High,3,2026-03-31 12:15,web_form,escalation,Patient requested update
+C00103,P0222,Appointment issue,Open,Low,1,2026-06-15 09:00,SMS,reminder_sent,Patient requested update
+C00103,P0222,Appointment issue,Open,Low,2,2026-06-15 20:00,mobile_app,staff_note,Escalated to coordinator
+C00103,P0222,Appointment issue,Open,Low,3,2026-06-16 13:00,phone,patient_reply,Staff reviewed case
+C00103,P0222,Appointment issue,Open,Low,4,2026-06-16 06:00,web_form,status_changed,Patient requested update
+C00104,P0170,Referral query,Closed,Low,1,2026-03-15 14:15,web_form,staff_note,Patient requested update
+C00104,P0170,Referral query,Closed,Low,2,2026-03-16 04:15,web_form,staff_note,Patient requested update
+C00104,P0170,Referral query,Closed,Low,3,2026-03-16 20:15,web_form,reminder_sent,Further information required
+C00104,P0170,Referral query,Closed,Low,4,2026-03-16 08:15,phone,escalation,Escalated to coordinator
+C00104,P0170,Referral query,Closed,Low,5,2026-03-16 14:15,web_form,message_received,Status changed
+C00104,P0170,Referral query,Closed,Low,6,2026-03-18 02:15,mobile_app,message_received,Further information required
+C00105,P0239,Prescription support,Closed,Medium,1,2026-06-01 13:45,web_form,status_changed,Patient requested update
+C00105,P0239,Prescription support,Closed,Medium,2,2026-06-02 08:45,mobile_app,status_changed,Patient requested update
+C00105,P0239,Prescription support,Closed,Medium,3,2026-06-02 13:45,phone,staff_note,Reminder sent
+C00105,P0239,Prescription support,Closed,Medium,4,2026-06-02 01:45,mobile_app,patient_reply,Escalated to coordinator
+C00105,P0239,Prescription support,Closed,Medium,5,2026-06-04 17:45,mobile_app,status_changed,Escalated to coordinator
+C00105,P0239,Prescription support,Closed,Medium,6,2026-06-02 19:45,phone,reminder_sent,Patient requested update
+C00106,P0232,Community visit query,Escalated,Medium,1,2026-05-17 17:45,SMS,status_changed,Patient requested update
+C00106,P0232,Community visit query,Escalated,Medium,2,2026-05-18 02:45,SMS,staff_note,Status changed
+C00106,P0232,Community visit query,Escalated,Medium,3,2026-05-18 15:45,mobile_app,patient_reply,Reminder sent
+C00106,P0232,Community visit query,Escalated,Medium,4,2026-05-18 17:45,SMS,escalation,Status changed
+C00106,P0232,Community visit query,Escalated,Medium,5,2026-05-18 09:45,SMS,reminder_sent,Escalated to coordinator
+C00107,P0167,Referral query,Closed,Low,1,2026-04-01 11:15,phone,message_received,Further information required
+C00107,P0167,Referral query,Closed,Low,2,2026-04-01 17:15,SMS,reminder_sent,Staff reviewed case
+C00107,P0167,Referral query,Closed,Low,3,2026-04-02 07:15,mobile_app,patient_reply,Escalated to coordinator
+C00107,P0167,Referral query,Closed,Low,4,2026-04-04 05:15,web_form,status_changed,Reminder sent
+C00107,P0167,Referral query,Closed,Low,5,2026-04-02 15:15,phone,message_received,Reminder sent
+C00107,P0167,Referral query,Closed,Low,6,2026-04-02 22:15,mobile_app,reminder_sent,Patient requested update
+C00108,P0145,Referral query,Escalated,Low,1,2026-01-02 08:00,SMS,staff_note,Staff reviewed case
+C00108,P0145,Referral query,Escalated,Low,2,2026-01-02 21:00,SMS,staff_note,Status changed
+C00108,P0145,Referral query,Escalated,Low,3,2026-01-03 10:00,SMS,patient_reply,Status changed
+C00109,P0099,Community visit query,Closed,High,1,2026-03-07 13:00,phone,reminder_sent,Staff reviewed case
+C00109,P0099,Community visit query,Closed,High,2,2026-03-08 00:00,SMS,status_changed,Patient requested update
+C00110,P0110,Appointment issue,Open,Low,1,2026-06-07 10:45,mobile_app,escalation,Further information required
+C00110,P0110,Appointment issue,Open,Low,2,2026-06-08 10:45,web_form,status_changed,Further information required
+C00110,P0110,Appointment issue,Open,Low,3,2026-06-08 18:45,phone,reminder_sent,Reminder sent
+C00110,P0110,Appointment issue,Open,Low,4,2026-06-08 01:45,web_form,patient_reply,Status changed
+C00110,P0110,Appointment issue,Open,Low,5,2026-06-08 02:45,phone,reminder_sent,Staff reviewed case
+C00111,P0173,Referral query,Closed,High,1,2026-03-18 11:00,web_form,patient_reply,Further information required
+C00111,P0173,Referral query,Closed,High,2,2026-03-19 08:00,web_form,patient_reply,Status changed
+C00111,P0173,Referral query,Closed,High,3,2026-03-19 17:00,web_form,staff_note,Escalated to coordinator
+C00111,P0173,Referral query,Closed,High,4,2026-03-20 14:00,phone,reminder_sent,Staff reviewed case
+C00112,P0191,Referral query,Open,Medium,1,2026-02-26 12:30,mobile_app,staff_note,Further information required
+C00112,P0191,Referral query,Open,Medium,2,2026-02-27 11:30,phone,patient_reply,Reminder sent
+C00113,P0148,Community visit query,Closed,High,1,2026-01-05 16:15,mobile_app,patient_reply,Staff reviewed case
+C00113,P0148,Community visit query,Closed,High,2,2026-01-06 12:15,SMS,status_changed,Further information required
+C00113,P0148,Community visit query,Closed,High,3,2026-01-07 06:15,phone,patient_reply,Escalated to coordinator
+C00114,P0220,Prescription support,Open,Low,1,2026-02-10 09:00,phone,message_received,Escalated to coordinator
+C00114,P0220,Prescription support,Open,Low,2,2026-02-10 18:00,mobile_app,staff_note,Patient requested update
+C00114,P0220,Prescription support,Open,Low,3,2026-02-11 23:00,web_form,reminder_sent,Further information required
+C00114,P0220,Prescription support,Open,Low,4,2026-02-12 06:00,phone,reminder_sent,Escalated to coordinator
+C00114,P0220,Prescription support,Open,Low,5,2026-02-13 05:00,web_form,reminder_sent,Status changed
+C00114,P0220,Prescription support,Open,Low,6,2026-02-14 23:00,phone,status_changed,Patient requested update
+C00115,P0111,Appointment issue,Escalated,Medium,1,2026-02-07 17:15,mobile_app,status_changed,Escalated to coordinator
+C00115,P0111,Appointment issue,Escalated,Medium,2,2026-02-08 08:15,mobile_app,status_changed,Patient requested update
+C00115,P0111,Appointment issue,Escalated,Medium,3,2026-02-08 13:15,SMS,reminder_sent,Status changed
+C00115,P0111,Appointment issue,Escalated,Medium,4,2026-02-09 14:15,SMS,status_changed,Staff reviewed case
+C00115,P0111,Appointment issue,Escalated,Medium,5,2026-02-11 09:15,web_form,escalation,Escalated to coordinator
+C00115,P0111,Appointment issue,Escalated,Medium,6,2026-02-11 16:15,mobile_app,patient_reply,Status changed
+C00116,P0067,Prescription support,Open,Low,1,2026-02-18 12:30,phone,message_received,Patient requested update
+C00116,P0067,Prescription support,Open,Low,2,2026-02-18 23:30,web_form,message_received,Reminder sent
+C00116,P0067,Prescription support,Open,Low,3,2026-02-19 14:30,phone,status_changed,Status changed
+C00116,P0067,Prescription support,Open,Low,4,2026-02-19 15:30,phone,message_received,Reminder sent
+C00116,P0067,Prescription support,Open,Low,5,2026-02-20 04:30,web_form,staff_note,Staff reviewed case
+C00117,P0005,Appointment issue,Open,Medium,1,2026-05-29 14:45,mobile_app,patient_reply,Escalated to coordinator
+C00117,P0005,Appointment issue,Open,Medium,2,2026-05-30 04:45,phone,patient_reply,Staff reviewed case
+C00117,P0005,Appointment issue,Open,Medium,3,2026-05-30 22:45,mobile_app,status_changed,Escalated to coordinator
+C00117,P0005,Appointment issue,Open,Medium,4,2026-05-30 08:45,SMS,staff_note,Staff reviewed case
+C00117,P0005,Appointment issue,Open,Medium,5,2026-05-30 14:45,SMS,reminder_sent,Reminder sent
+C00117,P0005,Appointment issue,Open,Medium,6,2026-05-30 15:45,web_form,status_changed,Staff reviewed case
+C00118,P0243,Prescription support,Open,Low,1,2026-02-11 16:30,web_form,status_changed,Status changed
+C00118,P0243,Prescription support,Open,Low,2,2026-02-12 06:30,phone,status_changed,Reminder sent
+C00118,P0243,Prescription support,Open,Low,3,2026-02-12 08:30,phone,patient_reply,Reminder sent
+C00118,P0243,Prescription support,Open,Low,4,2026-02-12 04:30,phone,message_received,Reminder sent
+C00118,P0243,Prescription support,Open,Low,5,2026-02-14 00:30,SMS,patient_reply,Patient requested update
+C00119,P0057,Online consultation,Closed,Low,1,2026-04-15 15:45,SMS,staff_note,Staff reviewed case
+C00119,P0057,Online consultation,Closed,Low,2,2026-04-15 19:45,SMS,staff_note,Reminder sent
+C00120,P0064,Prescription support,Open,Low,1,2026-03-13 13:15,phone,status_changed,Escalated to coordinator
+C00120,P0064,Prescription support,Open,Low,2,2026-03-14 11:15,web_form,staff_note,Reminder sent
+C00121,P0012,Appointment issue,Closed,High,1,2026-04-28 09:00,phone,status_changed,Escalated to coordinator
+C00121,P0012,Appointment issue,Closed,High,2,2026-04-28 17:00,web_form,message_received,Staff reviewed case
+C00122,P0235,Referral query,Closed,High,1,2026-05-02 15:30,mobile_app,patient_reply,Further information required
+C00122,P0235,Referral query,Closed,High,2,2026-05-03 00:30,web_form,message_received,Status changed
+C00122,P0235,Referral query,Closed,High,3,2026-05-03 21:30,phone,patient_reply,Status changed
+C00122,P0235,Referral query,Closed,High,4,2026-05-03 15:30,SMS,escalation,Reminder sent
+C00123,P0040,Community visit query,Closed,Medium,1,2026-05-30 13:45,web_form,escalation,Staff reviewed case
+C00123,P0040,Community visit query,Closed,Medium,2,2026-05-31 09:45,phone,status_changed,Status changed
+C00123,P0040,Community visit query,Closed,Medium,3,2026-05-31 11:45,phone,staff_note,Further information required
+C00123,P0040,Community visit query,Closed,Medium,4,2026-05-31 07:45,phone,message_received,Reminder sent
+C00123,P0040,Community visit query,Closed,Medium,5,2026-05-31 13:45,mobile_app,message_received,Patient requested update
+C00124,P0179,Online consultation,Open,Low,1,2026-06-07 08:00,SMS,reminder_sent,Escalated to coordinator
+C00124,P0179,Online consultation,Open,Low,2,2026-06-07 13:00,phone,patient_reply,Reminder sent
+C00124,P0179,Online consultation,Open,Low,3,2026-06-08 14:00,mobile_app,patient_reply,Further information required
+C00124,P0179,Online consultation,Open,Low,4,2026-06-10 05:00,web_form,escalation,Staff reviewed case
+C00124,P0179,Online consultation,Open,Low,5,2026-06-08 20:00,web_form,escalation,Patient requested update
+C00125,P0243,Referral query,Closed,Medium,1,2026-02-26 16:45,mobile_app,reminder_sent,Staff reviewed case
+C00125,P0243,Referral query,Closed,Medium,2,2026-02-27 00:45,phone,message_received,Status changed
+C00125,P0243,Referral query,Closed,Medium,3,2026-02-27 10:45,SMS,escalation,Staff reviewed case
+C00126,P0233,Online consultation,Open,Low,1,2026-06-27 16:15,web_form,reminder_sent,Status changed
+C00126,P0233,Online consultation,Open,Low,2,2026-06-27 20:15,web_form,patient_reply,Further information required
+C00126,P0233,Online consultation,Open,Low,3,2026-06-29 06:15,web_form,message_received,Staff reviewed case
+C00127,P0158,Referral query,Closed,Low,1,2026-06-06 13:15,web_form,patient_reply,Escalated to coordinator
+C00127,P0158,Referral query,Closed,Low,2,2026-06-06 22:15,SMS,staff_note,Escalated to coordinator
+C00127,P0158,Referral query,Closed,Low,3,2026-06-07 09:15,phone,patient_reply,Escalated to coordinator
+C00127,P0158,Referral query,Closed,Low,4,2026-06-08 07:15,SMS,status_changed,Staff reviewed case
+C00127,P0158,Referral query,Closed,Low,5,2026-06-08 01:15,SMS,staff_note,Status changed
+C00128,P0146,Online consultation,Open,Low,1,2026-04-18 09:45,mobile_app,status_changed,Further information required
+C00128,P0146,Online consultation,Open,Low,2,2026-04-18 17:45,mobile_app,escalation,Staff reviewed case
+C00128,P0146,Online consultation,Open,Low,3,2026-04-20 05:45,phone,status_changed,Further information required
+C00128,P0146,Online consultation,Open,Low,4,2026-04-20 00:45,mobile_app,message_received,Staff reviewed case
+C00129,P0081,Community visit query,Closed,Low,1,2026-03-04 15:15,web_form,escalation,Reminder sent
+C00129,P0081,Community visit query,Closed,Low,2,2026-03-04 20:15,SMS,staff_note,Patient requested update
+C00129,P0081,Community visit query,Closed,Low,3,2026-03-05 19:15,web_form,patient_reply,Further information required
+C00129,P0081,Community visit query,Closed,Low,4,2026-03-05 03:15,web_form,message_received,Reminder sent
+C00129,P0081,Community visit query,Closed,Low,5,2026-03-06 07:15,mobile_app,status_changed,Escalated to coordinator
+C00130,P0147,Online consultation,Closed,High,1,2026-01-17 09:15,phone,message_received,Staff reviewed case
+C00130,P0147,Online consultation,Closed,High,2,2026-01-17 22:15,mobile_app,escalation,Staff reviewed case
+C00130,P0147,Online consultation,Closed,High,3,2026-01-19 03:15,phone,staff_note,Further information required
+C00131,P0229,Community visit query,Closed,Medium,1,2026-05-30 09:30,mobile_app,staff_note,Staff reviewed case
+C00131,P0229,Community visit query,Closed,Medium,2,2026-05-30 22:30,phone,escalation,Patient requested update
+C00131,P0229,Community visit query,Closed,Medium,3,2026-05-30 19:30,SMS,status_changed,Further information required
+C00131,P0229,Community visit query,Closed,Medium,4,2026-06-01 21:30,SMS,staff_note,Escalated to coordinator
+C00132,P0084,Appointment issue,Open,Medium,1,2026-04-13 12:00,phone,status_changed,Staff reviewed case
+C00132,P0084,Appointment issue,Open,Medium,2,2026-04-13 21:00,mobile_app,patient_reply,Reminder sent
+C00132,P0084,Appointment issue,Open,Medium,3,2026-04-14 22:00,phone,status_changed,Patient requested update
+C00132,P0084,Appointment issue,Open,Medium,4,2026-04-14 18:00,phone,message_received,Staff reviewed case
+C00132,P0084,Appointment issue,Open,Medium,5,2026-04-14 12:00,mobile_app,reminder_sent,Reminder sent
+C00132,P0084,Appointment issue,Open,Medium,6,2026-04-18 07:00,web_form,patient_reply,Reminder sent
+C00133,P0235,Community visit query,Open,Low,1,2026-05-01 17:45,web_form,patient_reply,Escalated to coordinator
+C00133,P0235,Community visit query,Open,Low,2,2026-05-02 13:45,mobile_app,escalation,Reminder sent
+C00133,P0235,Community visit query,Open,Low,3,2026-05-03 09:45,phone,message_received,Escalated to coordinator
+C00134,P0109,Online consultation,Open,Low,1,2026-06-30 08:00,phone,escalation,Reminder sent
+C00134,P0109,Online consultation,Open,Low,2,2026-07-01 05:00,web_form,status_changed,Further information required
+C00135,P0162,Online consultation,Closed,High,1,2026-02-15 12:15,mobile_app,reminder_sent,Further information required
+C00135,P0162,Online consultation,Closed,High,2,2026-02-15 21:15,SMS,patient_reply,Reminder sent
+C00135,P0162,Online consultation,Closed,High,3,2026-02-17 08:15,mobile_app,message_received,Status changed
+C00135,P0162,Online consultation,Closed,High,4,2026-02-17 12:15,SMS,status_changed,Status changed
+C00135,P0162,Online consultation,Closed,High,5,2026-02-18 08:15,phone,status_changed,Reminder sent
+C00135,P0162,Online consultation,Closed,High,6,2026-02-19 21:15,phone,patient_reply,Further information required
+C00136,P0055,Community visit query,Closed,Medium,1,2026-05-10 13:00,phone,staff_note,Status changed
+C00136,P0055,Community visit query,Closed,Medium,2,2026-05-10 20:00,phone,staff_note,Further information required
+C00136,P0055,Community visit query,Closed,Medium,3,2026-05-11 15:00,mobile_app,message_received,Patient requested update
+C00136,P0055,Community visit query,Closed,Medium,4,2026-05-11 19:00,phone,escalation,Further information required
+C00136,P0055,Community visit query,Closed,Medium,5,2026-05-12 01:00,phone,status_changed,Escalated to coordinator
+C00136,P0055,Community visit query,Closed,Medium,6,2026-05-15 08:00,phone,message_received,Escalated to coordinator
+C00137,P0090,Prescription support,Closed,Medium,1,2026-06-03 09:45,SMS,staff_note,Status changed
+C00137,P0090,Prescription support,Closed,Medium,2,2026-06-04 01:45,mobile_app,escalation,Patient requested update
+C00137,P0090,Prescription support,Closed,Medium,3,2026-06-04 19:45,web_form,patient_reply,Reminder sent
+C00137,P0090,Prescription support,Closed,Medium,4,2026-06-03 21:45,mobile_app,escalation,Staff reviewed case
+C00138,P0156,Prescription support,Closed,Low,1,2026-04-28 16:00,SMS,patient_reply,Further information required
+C00138,P0156,Prescription support,Closed,Low,2,2026-04-29 16:00,phone,patient_reply,Escalated to coordinator
+C00138,P0156,Prescription support,Closed,Low,3,2026-04-29 18:00,web_form,escalation,Status changed
+C00138,P0156,Prescription support,Closed,Low,4,2026-04-29 19:00,mobile_app,escalation,Escalated to coordinator
+C00139,P0137,Appointment issue,Closed,Medium,1,2026-04-01 17:00,SMS,status_changed,Staff reviewed case
+C00139,P0137,Appointment issue,Closed,Medium,2,2026-04-02 16:00,phone,reminder_sent,Staff reviewed case
+C00139,P0137,Appointment issue,Closed,Medium,3,2026-04-02 15:00,web_form,escalation,Status changed
+C00140,P0149,Community visit query,Open,Medium,1,2026-04-24 12:45,SMS,staff_note,Further information required
+C00140,P0149,Community visit query,Open,Medium,2,2026-04-25 01:45,mobile_app,staff_note,Further information required
+C00140,P0149,Community visit query,Open,Medium,3,2026-04-26 10:45,SMS,staff_note,Patient requested update
+C00141,P0079,Community visit query,Closed,Low,1,2026-03-07 16:30,web_form,staff_note,Staff reviewed case
+C00141,P0079,Community visit query,Closed,Low,2,2026-03-07 22:30,phone,patient_reply,Further information required
+C00141,P0079,Community visit query,Closed,Low,3,2026-03-08 18:30,mobile_app,staff_note,Status changed
+C00141,P0079,Community visit query,Closed,Low,4,2026-03-09 01:30,web_form,staff_note,Further information required
+C00141,P0079,Community visit query,Closed,Low,5,2026-03-11 16:30,web_form,status_changed,Status changed
+C00141,P0079,Community visit query,Closed,Low,6,2026-03-12 06:30,mobile_app,staff_note,Staff reviewed case
+C00142,P0003,Referral query,Closed,High,1,2026-01-03 13:15,phone,staff_note,Reminder sent
+C00142,P0003,Referral query,Closed,High,2,2026-01-04 07:15,mobile_app,staff_note,Status changed
+C00143,P0216,Community visit query,Closed,High,1,2026-05-20 10:30,web_form,patient_reply,Patient requested update
+C00143,P0216,Community visit query,Closed,High,2,2026-05-20 21:30,mobile_app,patient_reply,Further information required
+C00143,P0216,Community visit query,Closed,High,3,2026-05-22 06:30,phone,escalation,Patient requested update
+C00143,P0216,Community visit query,Closed,High,4,2026-05-22 04:30,SMS,reminder_sent,Escalated to coordinator
+C00143,P0216,Community visit query,Closed,High,5,2026-05-23 22:30,phone,patient_reply,Further information required
+C00143,P0216,Community visit query,Closed,High,6,2026-05-24 09:30,web_form,escalation,Patient requested update
+C00144,P0004,Community visit query,Closed,Low,1,2026-04-05 08:00,mobile_app,escalation,Staff reviewed case
+C00144,P0004,Community visit query,Closed,Low,2,2026-04-06 00:00,SMS,message_received,Further information required
+C00145,P0100,Online consultation,Closed,Medium,1,2026-03-16 09:30,SMS,patient_reply,Escalated to coordinator
+C00145,P0100,Online consultation,Closed,Medium,2,2026-03-16 22:30,SMS,staff_note,Further information required
+C00145,P0100,Online consultation,Closed,Medium,3,2026-03-16 19:30,SMS,escalation,Patient requested update
+C00145,P0100,Online consultation,Closed,Medium,4,2026-03-19 09:30,mobile_app,patient_reply,Status changed
+C00145,P0100,Online consultation,Closed,Medium,5,2026-03-17 21:30,SMS,escalation,Patient requested update
+C00145,P0100,Online consultation,Closed,Medium,6,2026-03-17 05:30,mobile_app,escalation,Reminder sent
+C00146,P0060,Referral query,Escalated,Medium,1,2026-03-19 12:15,mobile_app,staff_note,Status changed
+C00146,P0060,Referral query,Escalated,Medium,2,2026-03-20 00:15,web_form,staff_note,Further information required
+C00146,P0060,Referral query,Escalated,Medium,3,2026-03-20 20:15,web_form,status_changed,Staff reviewed case
+C00146,P0060,Referral query,Escalated,Medium,4,2026-03-20 03:15,SMS,status_changed,Reminder sent
+C00146,P0060,Referral query,Escalated,Medium,5,2026-03-20 16:15,web_form,reminder_sent,Further information required
+C00146,P0060,Referral query,Escalated,Medium,6,2026-03-24 07:15,SMS,staff_note,Reminder sent
+C00147,P0241,Referral query,Closed,Low,1,2026-06-05 08:30,web_form,staff_note,Patient requested update
+C00147,P0241,Referral query,Closed,Low,2,2026-06-05 20:30,SMS,reminder_sent,Status changed
+C00147,P0241,Referral query,Closed,Low,3,2026-06-06 16:30,web_form,patient_reply,Staff reviewed case
+C00148,P0084,Prescription support,Closed,Medium,1,2026-03-01 16:15,SMS,message_received,Reminder sent
+C00148,P0084,Prescription support,Closed,Medium,2,2026-03-02 05:15,web_form,escalation,Staff reviewed case
+C00148,P0084,Prescription support,Closed,Medium,3,2026-03-02 12:15,mobile_app,status_changed,Escalated to coordinator
+C00148,P0084,Prescription support,Closed,Medium,4,2026-03-04 13:15,mobile_app,message_received,Escalated to coordinator
+C00149,P0239,Referral query,Open,High,1,2026-05-01 11:15,phone,staff_note,Staff reviewed case
+C00149,P0239,Referral query,Open,High,2,2026-05-02 08:15,phone,patient_reply,Staff reviewed case
+C00149,P0239,Referral query,Open,High,3,2026-05-03 05:15,web_form,escalation,Escalated to coordinator
+C00149,P0239,Referral query,Open,High,4,2026-05-03 05:15,web_form,status_changed,Reminder sent
+C00149,P0239,Referral query,Open,High,5,2026-05-05 03:15,web_form,status_changed,Escalated to coordinator
+C00150,P0104,Referral query,Closed,Low,1,2026-05-06 13:00,mobile_app,reminder_sent,Patient requested update
+C00150,P0104,Referral query,Closed,Low,2,2026-05-07 09:00,mobile_app,reminder_sent,Staff reviewed case
+C00150,P0104,Referral query,Closed,Low,3,2026-05-08 11:00,mobile_app,reminder_sent,Status changed
+C00150,P0104,Referral query,Closed,Low,4,2026-05-08 19:00,web_form,reminder_sent,Status changed
+C00150,P0104,Referral query,Closed,Low,5,2026-05-08 09:00,web_form,escalation,Reminder sent
+C00151,P0188,Appointment issue,Open,Low,1,2026-01-29 15:00,web_form,escalation,Further information required
+C00151,P0188,Appointment issue,Open,Low,2,2026-01-30 09:00,phone,reminder_sent,Staff reviewed case
+C00151,P0188,Appointment issue,Open,Low,3,2026-01-31 13:00,phone,message_received,Staff reviewed case
+C00151,P0188,Appointment issue,Open,Low,4,2026-01-31 00:00,SMS,patient_reply,Further information required
+C00152,P0108,Online consultation,Closed,Low,1,2026-06-26 11:15,phone,staff_note,Patient requested update
+C00152,P0108,Online consultation,Closed,Low,2,2026-06-27 07:15,SMS,patient_reply,Further information required
+C00152,P0108,Online consultation,Closed,Low,3,2026-06-27 05:15,mobile_app,reminder_sent,Reminder sent
+C00152,P0108,Online consultation,Closed,Low,4,2026-06-28 20:15,SMS,status_changed,Patient requested update
+C00152,P0108,Online consultation,Closed,Low,5,2026-06-28 15:15,SMS,status_changed,Staff reviewed case
+C00152,P0108,Online consultation,Closed,Low,6,2026-06-27 17:15,web_form,status_changed,Patient requested update
+C00153,P0238,Online consultation,Closed,Medium,1,2026-05-04 16:00,mobile_app,reminder_sent,Status changed
+C00153,P0238,Online consultation,Closed,Medium,2,2026-05-05 11:00,phone,reminder_sent,Staff reviewed case
+C00154,P0191,Community visit query,Closed,Low,1,2026-04-07 10:45,web_form,status_changed,Reminder sent
+C00154,P0191,Community visit query,Closed,Low,2,2026-04-08 02:45,phone,patient_reply,Further information required
+C00154,P0191,Community visit query,Closed,Low,3,2026-04-09 06:45,web_form,staff_note,Escalated to coordinator
+C00154,P0191,Community visit query,Closed,Low,4,2026-04-09 13:45,web_form,reminder_sent,Patient requested update
+C00154,P0191,Community visit query,Closed,Low,5,2026-04-11 06:45,mobile_app,escalation,Patient requested update
+C00154,P0191,Community visit query,Closed,Low,6,2026-04-08 21:45,mobile_app,patient_reply,Further information required
+C00155,P0137,Online consultation,Closed,Medium,1,2026-02-11 09:00,SMS,escalation,Further information required
+C00155,P0137,Online consultation,Closed,Medium,2,2026-02-11 22:00,web_form,status_changed,Escalated to coordinator
+C00155,P0137,Online consultation,Closed,Medium,3,2026-02-12 11:00,SMS,reminder_sent,Escalated to coordinator
+C00155,P0137,Online consultation,Closed,Medium,4,2026-02-13 21:00,web_form,patient_reply,Escalated to coordinator
+C00155,P0137,Online consultation,Closed,Medium,5,2026-02-15 05:00,SMS,patient_reply,Staff reviewed case
+C00155,P0137,Online consultation,Closed,Medium,6,2026-02-15 03:00,phone,patient_reply,Staff reviewed case
+C00156,P0194,Online consultation,Escalated,Medium,1,2026-06-01 08:15,SMS,escalation,Further information required
+C00156,P0194,Online consultation,Escalated,Medium,2,2026-06-02 02:15,mobile_app,status_changed,Staff reviewed case
+C00156,P0194,Online consultation,Escalated,Medium,3,2026-06-03 00:15,phone,escalation,Further information required
+C00157,P0193,Community visit query,Closed,Low,1,2026-03-26 09:30,SMS,status_changed,Further information required
+C00157,P0193,Community visit query,Closed,Low,2,2026-03-27 01:30,mobile_app,message_received,Reminder sent
+C00157,P0193,Community visit query,Closed,Low,3,2026-03-27 05:30,mobile_app,status_changed,Further information required
+C00158,P0030,Prescription support,Open,Medium,1,2026-06-06 15:00,mobile_app,message_received,Escalated to coordinator
+C00158,P0030,Prescription support,Open,Medium,2,2026-06-07 14:00,phone,message_received,Status changed
+C00158,P0030,Prescription support,Open,Medium,3,2026-06-08 03:00,mobile_app,reminder_sent,Staff reviewed case
+C00158,P0030,Prescription support,Open,Medium,4,2026-06-07 15:00,SMS,staff_note,Further information required
+C00159,P0161,Community visit query,Open,Medium,1,2026-01-04 13:15,mobile_app,escalation,Escalated to coordinator
+C00159,P0161,Community visit query,Open,Medium,2,2026-01-04 20:15,mobile_app,patient_reply,Reminder sent
+C00159,P0161,Community visit query,Open,Medium,3,2026-01-06 09:15,mobile_app,message_received,Reminder sent
+C00160,P0079,Referral query,Escalated,Medium,1,2026-03-31 09:15,mobile_app,escalation,Further information required
+C00160,P0079,Referral query,Escalated,Medium,2,2026-03-31 23:15,mobile_app,patient_reply,Escalated to coordinator
+C00160,P0079,Referral query,Escalated,Medium,3,2026-03-31 23:15,mobile_app,reminder_sent,Staff reviewed case
+C00160,P0079,Referral query,Escalated,Medium,4,2026-04-01 00:15,phone,reminder_sent,Reminder sent
+C00160,P0079,Referral query,Escalated,Medium,5,2026-04-03 09:15,phone,staff_note,Patient requested update
+C00161,P0128,Prescription support,Closed,Medium,1,2026-04-13 10:45,web_form,patient_reply,Escalated to coordinator
+C00161,P0128,Prescription support,Closed,Medium,2,2026-04-14 09:45,SMS,patient_reply,Reminder sent
+C00162,P0181,Online consultation,Closed,Low,1,2026-05-20 13:45,web_form,staff_note,Escalated to coordinator
+C00162,P0181,Online consultation,Closed,Low,2,2026-05-21 00:45,mobile_app,escalation,Staff reviewed case
+C00163,P0146,Online consultation,Open,High,1,2026-03-30 09:00,phone,staff_note,Escalated to coordinator
+C00163,P0146,Online consultation,Open,High,2,2026-03-31 08:00,mobile_app,escalation,Reminder sent
+C00163,P0146,Online consultation,Open,High,3,2026-04-01 01:00,phone,staff_note,Status changed
+C00163,P0146,Online consultation,Open,High,4,2026-03-31 12:00,SMS,message_received,Reminder sent
+C00163,P0146,Online consultation,Open,High,5,2026-04-02 21:00,SMS,escalation,Status changed
+C00164,P0046,Referral query,Closed,Medium,1,2026-03-07 09:45,mobile_app,patient_reply,Escalated to coordinator
+C00164,P0046,Referral query,Closed,Medium,2,2026-03-08 03:45,web_form,escalation,Reminder sent
+C00165,P0105,Prescription support,Escalated,Medium,1,2026-02-01 08:15,mobile_app,status_changed,Status changed
+C00165,P0105,Prescription support,Escalated,Medium,2,2026-02-01 18:15,mobile_app,reminder_sent,Reminder sent
+C00165,P0105,Prescription support,Escalated,Medium,3,2026-02-02 22:15,SMS,status_changed,Status changed
+C00165,P0105,Prescription support,Escalated,Medium,4,2026-02-02 08:15,mobile_app,reminder_sent,Escalated to coordinator
+C00165,P0105,Prescription support,Escalated,Medium,5,2026-02-03 08:15,web_form,staff_note,Patient requested update
+C00165,P0105,Prescription support,Escalated,Medium,6,2026-02-05 12:15,phone,patient_reply,Staff reviewed case
+C00166,P0205,Online consultation,Closed,High,1,2026-05-07 14:30,mobile_app,patient_reply,Reminder sent
+C00166,P0205,Online consultation,Closed,High,2,2026-05-07 23:30,web_form,patient_reply,Further information required
+C00166,P0205,Online consultation,Closed,High,3,2026-05-09 02:30,web_form,reminder_sent,Staff reviewed case
+C00166,P0205,Online consultation,Closed,High,4,2026-05-08 11:30,phone,reminder_sent,Further information required
+C00166,P0205,Online consultation,Closed,High,5,2026-05-10 14:30,phone,staff_note,Patient requested update
+C00166,P0205,Online consultation,Closed,High,6,2026-05-11 08:30,web_form,status_changed,Patient requested update
+C00167,P0202,Prescription support,Closed,Low,1,2026-01-28 14:30,web_form,status_changed,Further information required
+C00167,P0202,Prescription support,Closed,Low,2,2026-01-29 10:30,mobile_app,patient_reply,Status changed
+C00168,P0247,Referral query,Open,Low,1,2026-02-24 14:30,mobile_app,reminder_sent,Patient requested update
+C00168,P0247,Referral query,Open,Low,2,2026-02-25 01:30,mobile_app,patient_reply,Patient requested update
+C00168,P0247,Referral query,Open,Low,3,2026-02-26 12:30,mobile_app,reminder_sent,Reminder sent
+C00168,P0247,Referral query,Open,Low,4,2026-02-27 02:30,SMS,message_received,Reminder sent
+C00168,P0247,Referral query,Open,Low,5,2026-02-28 02:30,phone,staff_note,Reminder sent
+C00169,P0237,Online consultation,Closed,Low,1,2026-02-13 11:00,web_form,staff_note,Status changed
+C00169,P0237,Online consultation,Closed,Low,2,2026-02-13 19:00,mobile_app,reminder_sent,Staff reviewed case
+C00169,P0237,Online consultation,Closed,Low,3,2026-02-13 23:00,mobile_app,message_received,Escalated to coordinator
+C00169,P0237,Online consultation,Closed,Low,4,2026-02-15 20:00,web_form,message_received,Further information required
+C00169,P0237,Online consultation,Closed,Low,5,2026-02-15 03:00,phone,reminder_sent,Staff reviewed case
+C00169,P0237,Online consultation,Closed,Low,6,2026-02-15 18:00,mobile_app,message_received,Further information required
+C00170,P0037,Prescription support,Open,Low,1,2026-05-31 16:45,web_form,patient_reply,Status changed
+C00170,P0037,Prescription support,Open,Low,2,2026-06-01 02:45,phone,status_changed,Staff reviewed case
+C00170,P0037,Prescription support,Open,Low,3,2026-06-01 04:45,SMS,reminder_sent,Reminder sent
+C00171,P0045,Prescription support,Open,Low,1,2026-05-17 17:00,web_form,staff_note,Further information required
+C00171,P0045,Prescription support,Open,Low,2,2026-05-18 10:00,mobile_app,escalation,Status changed
+C00172,P0103,Referral query,Open,High,1,2026-01-15 10:00,web_form,status_changed,Status changed
+C00172,P0103,Referral query,Open,High,2,2026-01-16 03:00,phone,message_received,Further information required
+C00173,P0008,Appointment issue,Closed,Low,1,2026-04-30 15:30,mobile_app,staff_note,Reminder sent
+C00173,P0008,Appointment issue,Closed,Low,2,2026-04-30 23:30,web_form,patient_reply,Patient requested update
+C00174,P0023,Online consultation,Open,Low,1,2026-06-17 15:15,mobile_app,status_changed,Further information required
+C00174,P0023,Online consultation,Open,Low,2,2026-06-18 07:15,mobile_app,escalation,Further information required
+C00174,P0023,Online consultation,Open,Low,3,2026-06-19 05:15,mobile_app,escalation,Status changed
+C00175,P0081,Prescription support,Open,Medium,1,2026-01-29 15:00,mobile_app,staff_note,Patient requested update
+C00175,P0081,Prescription support,Open,Medium,2,2026-01-30 09:00,web_form,reminder_sent,Reminder sent
+C00175,P0081,Prescription support,Open,Medium,3,2026-01-31 01:00,mobile_app,status_changed,Reminder sent
+C00175,P0081,Prescription support,Open,Medium,4,2026-01-31 06:00,web_form,status_changed,Reminder sent
+C00175,P0081,Prescription support,Open,Medium,5,2026-02-01 03:00,phone,message_received,Escalated to coordinator
+C00175,P0081,Prescription support,Open,Medium,6,2026-02-01 23:00,mobile_app,status_changed,Staff reviewed case
+C00176,P0037,Prescription support,Closed,Low,1,2026-03-20 15:45,mobile_app,status_changed,Escalated to coordinator
+C00176,P0037,Prescription support,Closed,Low,2,2026-03-21 00:45,SMS,escalation,Escalated to coordinator
+C00176,P0037,Prescription support,Closed,Low,3,2026-03-21 21:45,web_form,message_received,Reminder sent
+C00177,P0155,Community visit query,Escalated,High,1,2026-06-23 10:30,web_form,message_received,Status changed
+C00177,P0155,Community visit query,Escalated,High,2,2026-06-23 15:30,phone,message_received,Patient requested update
+C00177,P0155,Community visit query,Escalated,High,3,2026-06-25 06:30,mobile_app,reminder_sent,Further information required
+C00177,P0155,Community visit query,Escalated,High,4,2026-06-26 04:30,mobile_app,status_changed,Status changed
+C00178,P0188,Online consultation,Open,Medium,1,2026-03-07 15:45,phone,status_changed,Status changed
+C00178,P0188,Online consultation,Open,Medium,2,2026-03-08 07:45,mobile_app,message_received,Further information required
+C00178,P0188,Online consultation,Open,Medium,3,2026-03-09 07:45,web_form,reminder_sent,Status changed
+C00178,P0188,Online consultation,Open,Medium,4,2026-03-09 03:45,mobile_app,patient_reply,Escalated to coordinator
+C00178,P0188,Online consultation,Open,Medium,5,2026-03-09 11:45,SMS,escalation,Further information required
+C00178,P0188,Online consultation,Open,Medium,6,2026-03-08 21:45,mobile_app,patient_reply,Patient requested update
+C00179,P0022,Online consultation,Open,Medium,1,2026-01-13 14:15,phone,status_changed,Staff reviewed case
+C00179,P0022,Online consultation,Open,Medium,2,2026-01-14 01:15,web_form,patient_reply,Staff reviewed case
+C00179,P0022,Online consultation,Open,Medium,3,2026-01-15 06:15,SMS,reminder_sent,Status changed
+C00179,P0022,Online consultation,Open,Medium,4,2026-01-14 05:15,phone,message_received,Reminder sent
+C00179,P0022,Online consultation,Open,Medium,5,2026-01-17 06:15,SMS,reminder_sent,Staff reviewed case
+C00180,P0044,Appointment issue,Closed,Low,1,2026-02-21 15:15,web_form,message_received,Reminder sent
+C00180,P0044,Appointment issue,Closed,Low,2,2026-02-22 01:15,mobile_app,message_received,Patient requested update
